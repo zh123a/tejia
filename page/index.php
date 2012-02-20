@@ -5,7 +5,7 @@ if ($viewer == 'self') {
 } else {
     $PAGE_NAME = "ta_set";
 }*/
-$PAGE_NAME = "预售首页";
+$PAGE_NAME = "index";
 include_once(dirname(__FILE__) . '/inc/config.php');
 include_once(dirname(__FILE__) . '/inc/header.php');
 ?>
@@ -13,6 +13,7 @@ include_once(dirname(__FILE__) . '/inc/header.php');
 <div id="content">
 index
 </div>
+<!-- end 内容主体 -->
 <?php
 include_once(dirname(__FILE__) . '/inc/footer.php');
 ?>
