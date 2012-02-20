@@ -9,4 +9,10 @@ $PAGE_NAME = "预售首页";
 include_once(dirname(__FILE__) . '/inc/config.php');
 include_once(dirname(__FILE__) . '/inc/header.php');
 ?>
- 
+<!-- 内容主体 -->
+<div id="content">
+index
+</div>
+<?php
+include_once(dirname(__FILE__) . '/inc/footer.php');
+?>
