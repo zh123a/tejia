@@ -1,9 +1,12 @@
 <?php
-/**
- * Created by JetBrains PhpStorm.
- * User: temu.psc
- * Date: 12-2-20
- * Time: ä¸‹åˆ2:02
- * To change this template use File | Settings | File Templates.
- */
+/*$viewer = $_GET['viewer'];
+if ($viewer == 'self') {
+    $PAGE_NAME = "user_set";
+} else {
+    $PAGE_NAME = "ta_set";
+}*/
+$PAGE_NAME = "Ô¤ÊÛÊ×Ò³";
+include_once(dirname(__FILE__) . '/inc/config.php');
+include_once(dirname(__FILE__) . '/inc/header.php');
+?>
  

@@ -1,8 +1,8 @@
 <?php
 /**
- * é¢„å”® header.
+ * Ô¤ÊÛ header.
  *
- * @author      ç‰¹æœ¨ <fahai@taobao.com>
+ * @author      ÌØÄ¾ <fahai@taobao.com>
  * @version     1.0.0 build 12-1-11
  */
 ?>
@@ -12,11 +12,11 @@
 <head>
     <title><?= $PAGE_NAME ?></title>
     <meta http-equiv="content-type" content="text/html; charset=gbk">
-    <!-- å…¨ç½‘å…¬å…±æ ·å¼ (vm common) -->
+    <!-- È«Íø¹«¹²ÑùÊ½ (vm common) -->
     <link rel="stylesheet" href="http://a.tbcdn.cn/??tbsp/tbsp.css,p/global/1.0/global-min.css?t=20120101.css">
 
-    <!-- DPL æ ·å¼ -->
-    <!-- å¦‚æžœå¼•ç”¨çš„æ˜¯ src ç›®å½•ä¸‹çš„æ ·å¼ï¼Œåˆ™è¦æ³¨æ„æ‰‹åŠ¨æŠŠç»†ç²’åº¦åˆ’åˆ†åŽçš„æ–‡ä»¶éƒ½å¼•ç”¨åˆ° -->
+    <!-- DPL ÑùÊ½ -->
+    <!-- Èç¹ûÒýÓÃµÄÊÇ src Ä¿Â¼ÏÂµÄÑùÊ½£¬ÔòÒª×¢ÒâÊÖ¶¯°ÑÏ¸Á£¶È»®·ÖºóµÄÎÄ¼þ¶¼ÒýÓÃµ½ -->
     <link rel="stylesheet" href="<?= $SRC_DIR ?>/base/header.css">
     <link rel="stylesheet" href="<?= $SRC_DIR ?>/base/content.css">
     <link rel="stylesheet" href="<?= $SRC_DIR ?>/base/footer.css">
@@ -28,17 +28,17 @@
     <link rel="stylesheet" href="<?= $SRC_DIR ?>/base/dialog.css">
 <!--    <link rel="stylesheet" href="http://assets.daily.taobao.net/apps/pix/base/index.css">-->
 
-    <!-- é¡µé¢æ ·å¼ -->
-    <!-- ä¸€ä¸ªé¡µé¢å†…ä»…å¼•ç”¨ä¸€ä¸ªé¡µé¢çº§æ ·å¼ï¼Œä¸ç”¨å†ç»†ç²’åº¦åœ°åˆ’åˆ†äº† -->
+    <!-- Ò³ÃæÑùÊ½ -->
+    <!-- Ò»¸öÒ³ÃæÄÚ½öÒýÓÃÒ»¸öÒ³Ãæ¼¶ÑùÊ½£¬²»ÓÃÔÙÏ¸Á£¶ÈµØ»®·ÖÁË -->
     <link rel="stylesheet" href="<?= $SRC_DIR ?>/page/<?= $PAGE_NAME ?>.css">
 <!--    <link rel="stylesheet" href="http://assets.daily.taobao.net/apps/pix/page/--><?//= $PAGE_NAME ?><!--.css">-->
 
-    <!-- æš‚æ—¶ä½¿ç”¨æœªåŽ‹ç¼©ç‰ˆæœ¬æ–¹ä¾¿è°ƒè¯• -->
+    <!-- ÔÝÊ±Ê¹ÓÃÎ´Ñ¹Ëõ°æ±¾·½±ãµ÷ÊÔ -->
     <script type="text/javascript" charset="utf-8" src="http://a.tbcdn.cn/??s/kissy/1.2.0/kissy.js"></script>
     <script src="http://a.tbcdn.cn/??p/global/1.0/global-min.js,p/et/et.js?t=20120101.js"></script>
 
-    <!-- DPL è„šæœ¬ -->
-    <!-- DPL è„šæœ¬å®šä¹‰äº†æ¨¡å—åŒ– pix-mod çš„ config ä¿¡æ¯ï¼ŒåŸºæœ¬ä¸éœ€è¦æ”¹åŠ¨äº†ï¼Œå› æ­¤ç›´æŽ¥å¼•ç”¨ build ä¸‹çš„ -->
+    <!-- DPL ½Å±¾ -->
+    <!-- DPL ½Å±¾¶¨ÒåÁËÄ£¿é»¯ pix-mod µÄ config ÐÅÏ¢£¬»ù±¾²»ÐèÒª¸Ä¶¯ÁË£¬Òò´ËÖ±½ÓÒýÓÃ build ÏÂµÄ -->
     <script type="text/javascript" src="<?= $SRC_DIR ?>/base/config.js"></script>
     <script type="text/javascript" src="<?= $SRC_DIR ?>/base/header.js"></script>
     <script type="text/javascript" src="<?= $SRC_DIR ?>/base/user-info.js"></script>
@@ -48,12 +48,12 @@
 <?php
 include_once(dirname(__FILE__) . '/site-nav.php');
 ?>
-<!-- ç”»æŠ¥é¡µå¤´ -->
+<!-- »­±¨Ò³Í· -->
 <div id="header">
     <div id="brand">
         <ul class="add-item">
             <li id="local-upload-entry">
-                <a href="javascript:void(0);" style="color:#fff;">æœ¬åœ°ä¸Šä¼ </a>
+                <a href="javascript:void(0);" style="color:#fff;">±¾µØÉÏ´«</a>
             </li>
         </ul>
     </div>
