@@ -1,0 +1,675 @@
+
+/*box模块 START*/
+.xin-box-wrapper{
+	margin: -1px 0 9px;
+	width: 738px;
+	border: 2px solid #ded8cf;
+}
+.xin-box-wrapper.last{
+	margin-bottom: 5px;
+}
+.xin-box{
+	position: relative;
+	width: 736px;
+	height: 205px;
+	vertical-align: middle;
+	cursor: pointer;
+	border: 1px solid #d6d2cb;
+}
+.hover .xin-box{
+	border: 1px solid #b81229;
+}
+.xin-now .hover,.xin-today .hover,.xin-purchase .hover{
+	border: 2px solid #b81229;
+}
+.xb-left{
+	float: left;
+	height: 205px;
+}
+.xb-right{
+	float: left;
+	padding: 0 11px;
+	width: 204px;
+	height: 205px;
+	text-align: center;
+	background-color:#FFF;
+}
+.xb-img{
+	width: 510px;
+	height: 180px;
+	vertical-align: bottom;
+}
+.xb-message{
+	position: relative;
+	margin-top: -2px;
+	padding-left: 8px;
+	line-height: 27px;
+	width: 502px;
+	background-color: #f1efea;
+}
+.xb-joinnumber{
+	position: absolute;
+	right: 9px;
+	top: 0;
+	display: inline-block;
+	height: 27px;
+	color: #666;
+}
+.xb-joinnumber .font-463d36{
+	margin: 0 3px;
+}
+.xb-joinnumber .font-333{
+	margin-right: 2px;
+}
+.xb-brand{
+	padding: 8px 0 0 7px;
+	height: 49px;
+	border-bottom: 1px dotted #cccccc;
+}
+.xb-brand img{
+	width: 100px;
+	height: 40px;
+}
+.xb-title{
+	padding: 7px 0;
+	font-size: 14px;
+	width: 204px;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.xb-price{
+	color: #cd000d;
+	font: bold 25px Arial;
+	letter-spacing: -1px;
+}
+.xb-rmb{
+	position: relative;
+	left: 2px;
+	bottom: 1px;
+	_bootom: 0;
+	font: bold 21px "\5fae\8f6f\96c5\9ed1",Verdana;
+	_font: bold 23px arial;
+}
+.xb-nopostage{
+	position: relative;
+	left: -4px;
+	bottom: 2px;
+	_bottom: 0;
+	font-weight: normal;
+	font-size: 12px;
+	letter-spacing: 0;
+}
+.xb-buttons,.xb-button{
+	height: 37px;
+}
+.xb-buttons{
+	padding-top: 7px;
+}
+.xb-buy1{
+	display: inline-block;
+	margin: 6px 0 4px;
+	width: 61px;
+	height: 27px;
+	background-position: -60px -200px;
+}
+.xb-buy1:hover{
+	background-position: -124px -200px;
+}
+.xb-buy2{
+	display: inline-block;
+	margin: 6px 0 4px;
+	width: 64px;
+	height: 28px;
+	background-position: 0 -231px;
+}
+.xb-buy2:hover{
+	background-position: -68px -231px;
+}
+.xb-over{
+	display: inline-block;
+	margin: 6px 0 4px;
+	width: 64px;
+	height: 28px;
+	background-position: -136px -231px;
+}
+.xb-spoint{
+	float: left;
+	display: inline-block;
+	margin: 6px 4px 4px 43px;
+	padding-left: 2px;
+	width: 55px;
+	line-height: 27px;
+	color: #000;
+	text-decoration: none;
+	background-position: 0 -200px;
+}
+.xb-spoint:hover{
+	text-decoration: none;
+	background-position: -189px -200px;
+}
+.xb-sellingpoiont a{
+	color: #666;
+	text-decoration: underline;
+	vertical-align:baseline;
+	zoom: 1;
+}
+.xb-sellingpoiont a:hover{
+	color: #b81229;
+}
+.xb-icon-qiang{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 43px;
+	height: 43px;
+	background-position: -257px -203px;
+}
+/*box模块 END*/
+/*title模块 START*/
+.title{
+	position: relative;
+	padding: 18px 0 7px;
+}
+.title-h2{
+	width: 123px;
+	height: 24px;
+	text-indent: -5000px;
+}
+.sub-title{
+	position: absolute;
+	left: 125px;
+	top: 24px;
+	font-size: 14px;
+}
+.title-achor{
+	position: absolute;
+	right: 0px;
+	top: 25px;
+	padding: 0 17px 0 5px;
+	line-height: 19px;
+	color: #333;
+	background-position: -147px -27px;
+	text-decoration: none;
+}
+.title-achor:hover{
+	color: #ae0019;
+	background-position: -147px -48px;
+	text-decoration: none;
+}
+/*title模块 END*/
+.head-carousel-wrapper,#footer{
+	background: url('http://img01.taobaocdn.com/tps/i1/T182GAXgFmXXXXXXXX-10-350.png') repeat-x 0 0;
+}
+/*顶部轮播图模块 START*/
+.head-carousel-wrapper{
+	height: 345px;
+}
+.head-carousel{
+	position: relative;
+	margin: 0 auto;
+	padding-top: 15px;
+	width: 990px;
+	height: 330px;
+	overflow: hidden;
+}
+.head-carousel img{
+	vertical-align: bottom;
+}
+.head-carousel .mainpic{
+	width: 990px;
+	height: 330px;
+}
+.head-carousel .mainpic li{
+	position: relative;
+	width: 990px;
+	height: 330px;
+	float: left;
+}
+.head-carousel .mainpic a{
+	position: absolute;
+	display: block;
+}
+.head-carousel .mainpic .layout3-1{
+	width: 740px;
+}
+.head-carousel .mainpic .layout3-2{
+	left: 740px;
+	width: 250px;
+}
+.head-carousel .mainpic .layout3-3{
+	left: 740px;
+	top: 165px;
+	width: 250px;
+}
+.head-carousel .mainpic .layout2-1{
+	width: 740px;
+}
+.head-carousel .mainpic .layout2-2{
+	left: 740px;
+	width: 250px;
+}
+.head-carousel .navpic,.head-carousel .slide-mask{
+	position: absolute;
+	top: 328px;
+	padding-left: 470px;
+	width: 520px;
+	height: 17px;
+	text-align: center;
+	z-index: 101;
+}
+.head-carousel .slide-mask{
+	background-color: #000;
+	opacity: 0.9;
+	filter: alpha(opacity = 90);
+	z-index: 100;
+}
+.head-carousel .navpic li{
+	float: left;
+	width: 17px;
+	height: 17px;
+	background-position: -257px -23px;
+	cursor: pointer;
+}
+.head-carousel .navpic li.selected{
+	background-position: -284px -23px;
+}
+/*顶部轮播图模块 END*/
+
+/*首页主内容模块(内容除轮播图) START*/
+.index-wrapper{
+	position: relative;
+	margin: 0 auto;
+	width: 992px;
+	color: #333;
+}
+/*主内容模块(左边) START*/
+.xin-main{
+	float: left;
+	margin-right: 8px;
+	width: 742px;
+}
+/*今日新品模块 START*/
+.xin-today .title-h2{
+	width: 250px;
+	background-position: 3px 0;
+}
+/*今日新品模块 END*/
+
+/*活动进行中模块 START*/
+.xin-now .title-h2{
+	background-position: 3px -25px;
+}
+.xb-buttons .xb-buy1{
+	float: left;
+}
+/*活动进行中模块 END*/
+
+/*抢新品模块 START*/
+.xin-purchase .title-h2{
+	width: 100px;
+	background-position: 3px -50px;
+}
+.xin-purchase .sub-title{
+	top: 25px;
+	left: 102px;
+}
+.xin-purchase .xb-joinnumber{
+	color: #333;
+	font-family: "\5b8b\4f53";
+}
+.xin-purchase .xb-price{
+	margin: 5px 0;
+}
+/*抢新品模块 END*/
+
+/*主内容模块(左边) END*/
+
+/*侧栏(右边) START*/
+.xin-sidebar{
+	float: left;
+	width: 240px;
+}
+/*新品预告模块 START*/
+.xin-preview .title{
+	padding: 19px 0 8px;
+}
+.xin-preview .title-h2{
+	width: 90px;
+	background-position: 0 -99px;
+}
+.xp-tab{
+	height: 35px;
+	color: #a7a7a5;
+	text-align: center;
+	border-top: 3px solid #b81229;
+	background-color: #23221a;
+	cursor: pointer;
+}
+.xp-tab .xp-day{
+	font: normal 11px Arial;
+	color: #767572;
+}
+.xp-tab .xp-week{
+	padding-top: 3px;
+	line-height: 15px;
+}
+.xp-tab li{
+	position: relative;
+	float: left;
+	width: 47px;
+	height: 35px;
+	border-right: 1px solid #161511;
+}
+.xp-tab .last{
+	border-right: 1px solid #23221a;
+}
+.xp-tab .focus{
+	color: #fff;
+	border-right: 1px solid #b81229;
+	background-color: #b81229;
+}
+.xp-tab .focus p{
+	color: #f9eaec;
+}
+.xp-tab .focus .triangle{
+	position: absolute;
+	top: 34px;
+	left: 19px;
+	font-size: 0;
+	width: 9px;
+	height: 6px;
+	background-position: -249px -5px;
+	z-index: 10;
+}
+.xp-list{
+	height: 168px;
+	background-color: #f2f1ec;
+}
+.xp-box-wrapper{
+	float: left;
+	width: 118px;
+	height: 82px;
+	text-align: center;
+	cursor: pointer;
+	border: 1px dotted #d3d0cb;
+}
+.xp-box{
+	height: 78px;
+	border: 2px solid #f2f1ec;
+	overflow: hidden;
+}
+.hover .xp-box{
+	border-color: #b81229;
+}
+.scroll .xp-box{
+	background-color: #fff;
+}
+.scroll .xp-box a,.scroll .xp-box a:hover{
+	padding: 4px 0 6px;
+}
+.xin-preview .xp-list .hover{
+	padding: 0;
+	border: 1px solid #b81229;
+}
+.xin-preview .xp-list .fix-hover2,.xin-preview .xp-list .fix-hover4{
+	border-bottom-color: #F2F1EC;
+}
+.xin-preview .xp-list .fix-hover1,.xin-preview .xp-list .fix-hover3{
+	border-left-color: #F2F1EC;
+}
+.xp-box a,.xp-box a:hover{
+	display: block;
+	height: 68px;
+	padding-top: 10px;
+	color: #262626;
+	text-decoration: none;
+}
+.xp-list .lt{
+	padding: 1px 1px 0 0;
+	width: 117px;
+	border-left-style: solid;
+	border-color: #f2f1ec #f2f1ec #d3d0cb #d3d0cb;
+	border-width: 0 0 1px 1px;
+}
+.xp-list .rt{
+	padding-top: 1px;
+	width: 119px;
+	border-right-style: solid;
+	border-top-color: #f2f1ec;
+	border-top: 0;
+}
+.xp-list .lb{
+	padding: 1px 1px 0 0;
+	width: 117px;
+	border-style: solid;
+	border-color: #f2f1ec #f2f1ec #d3d0cb #d3d0cb;
+	border-width: 0 0 1px 1px;
+}
+.xp-list .rb{
+	padding-top: 1px;
+	width: 119px;
+	border-style: solid solid solid dotted;
+	border-top: 0;
+}
+.xp-box img{
+	margin-bottom: 7px;
+	vertical-align: bottom;
+}
+/*新品预告模块 END*/
+
+/*名品派发模块 START*/
+.xin-send .title{
+	padding: 14px 0 1px;
+	border-bottom: 3px solid #302f27;
+}
+.xin-send .title-h2{
+	width: 90px;
+	background-position: 0 -124px;
+}
+.xs-list,.xg-list{
+	background-color: #f2f1ec;
+	overflow: hidden;
+}
+.xs-list li,.xg-list li{
+	padding-top: 1px;
+	font-size:0;
+	border: 1px solid #d3d0cb;
+	border-top: 0;
+	border-bottom-style: dotted;
+}
+.xs-list .last,.xg-list .last{
+	border-bottom: 1px solid #d3d0cb;
+}
+.xs-box,.xg-box{
+	font-size: 12px;
+	position: relative;
+	zoom: 1;
+	padding: 14px 0 12px 13px;
+	border: 2px solid #f2f1ec;
+	cursor: pointer;
+}
+.xs-list li.hover,.xg-list li.hover{
+	padding-top: 0;
+	border: 1px solid #b81229;
+}
+.xs-list li.hover .xs-box,.xg-list li.hover .xg-box{
+	border: 2px solid #b81229;
+}
+.xs-list li.fix-hover,.xg-list li.fix-hover{
+	border-bottom-color: #f2f1ec;
+}
+.xsb-message{
+	position: absolute;
+	top: 12px;
+	left: 116px;
+	padding: 5px 0 0 5px;
+}
+.xsb-message p{
+	line-height: 18px;
+}
+.xs-box img,.xg-box img,.xin-session img{
+	vertical-align: bottom;
+}
+.xs-box img{
+	display: block;
+	width: 100px;
+}
+.xsb-imga{
+	display: block;
+	width: 100px;
+	background-color: #FFF;
+}
+.xsb-rmb{
+	margin: 0 4px 0 2px;
+	font-family: Arial;
+}
+.xsb-get{
+	display: block;
+	margin-top: 4px;
+	width: 57px;
+	line-height: 27px;
+	color: #000;
+	text-align: center;
+	text-decoration: none;
+	background-position: 0 -200px;
+}
+.xsb-get:hover{
+	text-decoration: none;
+	background-position: -189px -200px;
+}
+/*名品派发模块 END*/
+
+/*首发有奖模块 START*/
+.xin-gift{
+	margin-top: 7px;
+}
+.xin-gift .title{
+	padding-top: 20px;
+	border-bottom: 3px solid #302f27;
+}
+.xin-gift .title-h2{
+	background-position: 0 -145px;
+}
+.xg-box{
+	padding: 0 0 20px 15px;
+	text-align: center;
+}
+.xg-box .text-left{
+	margin-top: 2px;
+}
+.xgb-message{
+	display: inline-block;
+	*display:inline;
+	zoom: 1;
+	padding-left: 9px;
+	text-align: left;
+}
+/*首发有奖模块 END*/
+
+/*新品专场模块 START*/
+.xin-session .title{
+	padding-top: 13px;
+}
+.xin-session .title-h2{
+	padding-bottom: 4px;
+	background-position: 0 -168px;
+}
+.xse-list li{
+	position: relative;
+}
+.xse-list img{
+	margin-top: -1px;
+	border-top: 1px dotted #d3d0cb
+}
+.xin-session .mask img,.xse-list .first{
+	margin-top: 0;
+	border-top: 0;
+}
+/*新品专场模块 END*/
+/*侧栏(右边) END*/
+
+/*战略合作模块 START*/
+.xin-co-branding{
+	clear: both;
+}
+.xin-co-branding .title-h2{
+	width: 145px;
+	background-position: 2px -75px;
+}
+.xcb-wrapper{
+	padding: 20px 0 10px 0;
+	border: 1px solid #d5cfc6;
+	background-color: #fff;
+}
+.xcb-wrapper li{
+	display: inline;
+	float: left;
+	height: 110px;
+	margin-left: 19px;
+}
+.xcb-wrapper .imga{
+	display: block;
+}
+.xcb-wrapper .imga img{
+	border:1px solid #e7e7e7;
+}
+.xcb-button{
+	margin: auto;
+	margin-top: -1px;
+	width:68px;
+	height: 16px;
+	background-position: 0px -282px;
+	cursor: pointer;
+}
+#J_brandslide{
+	height: 0;
+	overflow: hidden;
+}
+/*战略合作模块  END*/
+/*其他新品活动  START*/
+.xin-otheract .title{
+	border: none;
+	margin: 0;
+}
+.xin-otheract .title-h2{
+	width: 145px;
+	background-position: -99px -105px
+}
+.xin-otheract .oalis{
+	float:left;
+	display:inline;
+	margin-right:10px;
+}
+.xin-otheract .oalis .imga{
+	display:block;
+	width:240px;
+	height:111px;
+	overflow:hidden;
+}
+.xin-otheract .oalis .imga img{
+	width:240px;
+	height:111px;
+}
+.xin-otheract .last{
+	margin:0;
+}
+/*其他新品活动  END*/
+/*底部广告条  START*/
+.xin-bottom-ad{
+	margin-top: 15px;
+	padding-bottom: 12px;
+}
+
+.xin-bottom-ad a{
+	margin: 12px auto 0;
+	width:990px;
+	height:50px;
+	display: block;
+}
+
+.xin-bottom-ad a img{
+	width:990px;
+	height:50px;
+}
+/*底部广告条  END*/
+/*首页主内容模块(内容除轮播图) END*/

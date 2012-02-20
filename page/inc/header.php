@@ -13,16 +13,19 @@
     <meta http-equiv="content-type" content="text/html; charset=gbk">
     <!-- 全网公共样式 (vm common) -->
     <link rel="stylesheet" href="http://a.tbcdn.cn/??tbsp/tbsp.css,p/global/1.0/global-min.css?t=20120101.css">
-    <!-- 引入新品中心的样式 -->
-    <link rel="stylesheet" href="http://a.tbcdn.cn/??p/global/1.0/global-min.css,app/taoinfo/aitao/taoinfo_header_2010.css,apps/newstar/xinpin.css?t=20120110.css">
+
+    <!--<link rel="stylesheet" href="http://a.tbcdn.cn/app/taoinfo/aitao/taoinfo_header_2010.css?t=20120110.css">-->
+    
 
     <!-- DPL 样式 -->
     <!-- 如果引用的是 src 目录下的样式，则要注意手动把细粒度划分后的文件都引用到 -->
-    <!--<link rel="stylesheet" href="<?= $SRC_DIR ?>/base/header.css">-->
+    <link rel="stylesheet" href="<?= $SRC_DIR ?>/base/header.css">
+    <link rel="stylesheet" href="<?= $SRC_DIR ?>/base/footer.css">
+    <link rel="stylesheet" href="<?= $SRC_DIR ?>/base/common.css">
 
     <!-- 页面样式 -->
     <!-- 一个页面内仅引用一个页面级样式，不用再细粒度地划分了 -->
-    <!--<link rel="stylesheet" href="<?= $SRC_DIR ?>/page/<?= $PAGE_NAME ?>.css">-->
+    <link rel="stylesheet" href="<?= $SRC_DIR ?>/page/<?= $PAGE_NAME ?>.css">
     
     <!-- 暂时使用未压缩版本方便调试 -->
     <script type="text/javascript" charset="utf-8" src="http://a.tbcdn.cn/??s/kissy/1.2.0/kissy.js"></script>

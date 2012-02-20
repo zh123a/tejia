@@ -1,0 +1,91 @@
+/*common START*/
+.bgc-ded8cf {
+    background-color: #ded8cf;
+}
+
+.font-463d36 {
+    color: #463d36;
+}
+
+.font-ae000b {
+    color: #ae000b;
+}
+
+.font-666 {
+    color: #666;
+}
+
+.font-333 {
+    color: #333;
+}
+
+.ml-8px {
+    margin-left: 8px;
+}
+
+.font-32px {
+    font-size: 34px;
+}
+
+.font-29px {
+    font-size: 29px;
+}
+
+.font-14px {
+    font-size: 14px;
+}
+
+.hidden {
+    display: none;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.of-hidden {
+    overflow: hidden;
+}
+
+.left {
+    float: left;
+}
+
+.text-left {
+    text-align: left;
+}
+
+/*clearfix*/
+.clearfix {
+    zoom: 1
+}
+
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: block;
+    height: 0;
+}
+
+.mask-layer {
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    cursor: pointer;
+}
+
+.mask .mask-layer {
+    background: none repeat 0 0 #000000;
+}
+
+.rmb {
+    font-family: Arial;
+}
+
+/*common END*/
+#page, #content, #header, #footer, #logo, #header .wrapper, .main-nav {
+    margin: 0 auto;
+}

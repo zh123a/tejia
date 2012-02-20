@@ -1,0 +1,59 @@
+#content .banner {
+    border-bottom: 1px solid #ccc;
+    height: 49px;
+    margin: 0 auto;
+}
+
+#content .banner-con {
+    width: 990px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 49px;
+}
+
+#content .banner-con img.customize {
+    padding: 10px 0 0 10px;
+}
+
+#content .banner-con span {
+    font-size: 30px;
+    height: 49px;
+    line-height: 49px;
+    display: inline-block;
+    font-family: 'WenQuanYi Micro Hei Mono', 'WenQuanYi Micro Hei', 'Microsoft Yahei Mono', 'Microsoft Yahei', sans-serif;
+    float: right;
+}
+#content .banner-con ul {
+    float: right;
+    height: 49px;
+    line-height: 49px;
+}
+#content .banner-con ul li {
+    float: left;
+    width: 50px;
+    text-align: center;
+}
+
+#content .listdiv {
+    width: 990px;
+    margin: 0 auto;
+}
+
+#content .listdiv ul li {
+    float: left;
+    font-size: 0;
+}
+
+#content .listdiv ul li a {
+    position: relative;
+    width: 495px;
+    height: 450px;
+}
+#content .listdiv ul li a span {
+    position: absolute;
+    top: -183px;
+    left: 61px;
+    font-size: 16px;
+    color: red;
+    z-index: 99;
+}
