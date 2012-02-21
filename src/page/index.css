@@ -1,0 +1,23 @@
+#content .order-group {
+    width: 990px;
+    margin: 0 auto;
+}
+
+#content .order-group ul li {
+    float: left;
+    font-size: 0;
+}
+
+#content .order-group ul li a {
+    position: relative;
+    width: 495px;
+    height: 450px;
+}
+#content .order-group ul li a span {
+    position: absolute;
+    top: -183px;
+    left: 61px;
+    font-size: 16px;
+    color: red;
+    z-index: 99;
+}

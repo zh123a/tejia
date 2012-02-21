@@ -14,6 +14,9 @@ include_once(dirname(__FILE__) . '/inc/header.php');
 <!-- ÄÚÈÝÖ÷Ìå -->
 <div id="content">
     <?php include_once(dirname(__FILE__) . '/inc/banner.php')?>
+    <div class="order-item">
+        order-item
+    </div>
 </div>
 <?php
 include_once(dirname(__FILE__) . '/inc/footer.php');

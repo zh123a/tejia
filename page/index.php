@@ -12,7 +12,7 @@ include_once(dirname(__FILE__) . '/inc/header.php');
 <!-- 内容主体 -->
 <div id="content">
     <?php include_once(dirname(__FILE__) . '/inc/banner.php')?>
-    <div class="listdiv clearfix">
+    <div class="order-group">
         <ul class="clearfix">
             <li><a target="_blank" href="#"><img src="<?= $SRC_DIR ?>/assets/1.png" alt="" /><span>立即预定1</span></a></li>
             <li><a target="_blank" href="#"><img src="<?= $SRC_DIR ?>/assets/2.png" alt="" /><span>立即预定2</span></a></li>

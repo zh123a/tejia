@@ -9,7 +9,7 @@
 
 <!-- 页面脚本 -->
 <!-- 一个页面内仅引用一个页面级脚本，在页面脚本内可引用模块化即 pix-mod 的脚本或样式 -->
-<!--<script type="text/javascript" src="<?= $SRC_DIR ?>/page/<?= $PAGE_NAME ?>.js"></script>-->
+<script type="text/javascript" src="<?= $SRC_DIR ?>/page/<?= $PAGE_NAME ?>.js"></script>
 <!--<script type="text/javascript" src="http://assets.daily.taobao.net/apps/pix/page/--><?//= $PAGE_NAME ?><!--.js"></script>-->
 <!-- 画报页脚 -->
 <!-- from vmcommon -->

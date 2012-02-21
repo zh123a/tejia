@@ -8,7 +8,7 @@
  */
 ?>
     <div class="banner">
-        <div class="banner-con clearfix">
+        <div class="banner-box clearfix">
             <img src="<?= $SRC_DIR ?>/assets/customize.png" alt="个性定制，值得拥有" class="customize"/>
             <ul>
                 <li>
