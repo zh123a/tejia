@@ -11,30 +11,7 @@ include_once(dirname(__FILE__) . '/inc/header.php');
 ?>
 <!-- 内容主体 -->
 <div id="content">
-    <div class="banner">
-        <div class="banner-con clearfix">
-            <img src="<?= $SRC_DIR ?>/assets/customize.png" alt="个性定制，值得拥有" class="customize"/>
-            <ul>
-                <li>
-                    <a>周六</a>
-                </li>
-                <li>
-                    <a>周日</a>
-                </li>
-                <li>
-                    <a>周一</a>
-                </li>
-                <li>
-                    <a>周二</a>
-                </li>
-                <li>
-                    <a>周三</a>
-                </li>
-            </ul>
-            <span>2月14日精选</span>
-
-        </div>
-    </div>
+    <?php include_once(dirname(__FILE__) . '/inc/banner.php')?>
     <div class="listdiv clearfix">
         <ul class="clearfix">
             <li><a target="_blank" href="#"><img src="<?= $SRC_DIR ?>/assets/1.png" alt="" /><span>立即预定1</span></a></li>

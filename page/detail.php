@@ -3,17 +3,17 @@
  * Created by JetBrains PhpStorm.
  * User: temu.psc
  * Date: 12-2-20
- * Time: ä¸‹åˆ2:57
+ * Time: ÏÂÎç2:57
  * To change this template use File | Settings | File Templates.
  */
-$PAGE_NAME = "é¢„å”®é¦–é¡µ";
+$PAGE_NAME = "detail";
 include_once(dirname(__FILE__) . '/inc/config.php');
 include_once(dirname(__FILE__) . '/inc/header.php');
 ?>
 
-<!-- å†…å®¹ä¸»ä½“ -->
+<!-- ÄÚÈİÖ÷Ìå -->
 <div id="content">
-detail
+    <?php include_once(dirname(__FILE__) . '/inc/banner.php')?>
 </div>
 <?php
 include_once(dirname(__FILE__) . '/inc/footer.php');
