@@ -1,0 +1,96 @@
+#content .order-item {
+    width: 990px;
+    margin: 10px auto 0 auto;
+}
+
+.info-box {
+    border: 1px solid #ddd;
+    padding: 17px 0 11px 0;
+}
+.info-box .meta {
+    position: relative;
+    border: 1px solid red;
+    height: 380px;
+    padding-left: 80px;
+    width: 304px;
+    float: left;
+    margin-left: 2px;
+    padding-top: 0;
+    z-index: 20;
+}
+
+.info-box .meta .actualPrice {
+    font-size: 48px;
+    color: #d70000;
+}
+.info-box .meta .actualPrice span {
+    font-size: 24px;
+    color: #666;
+}
+
+.info-box .meta .listPrice {
+    font-size: 12px;
+    color: #333;
+    height: 24px;
+    line-height: 20px;
+    padding-bottom: 4px;
+}
+.info-box .meta .listPrice del {
+    margin-right: 5px;
+}
+
+.info-box .meta .orders {
+    font-size: 14px;
+    color: #333;
+    height: 30px;
+    line-height: 20px;
+}
+
+.info-box .meta .orderNow {
+    margin: 5px 0;
+}
+.info-box .meta .orderNow a {
+    height: 35px;
+    line-height: 35px;
+    width: 126px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 2px;
+    color: white;
+    text-shadow: 0 0 0 transparent,1px 1px 1px #75491e;
+    font-size: 20px;
+    background: -webkit-gradient(linear,0% 0%,0% 100%,from( #e7a46b),to( #a55c13));
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.info-box .meta .share {
+    margin: 10px 0;
+}
+.info-box .meta .share input {
+    border: 1px solid #e7e7e7;
+    height: 20px;
+    width: 130px;
+    line-height: 20px;
+    color: #e7e7e7;
+}
+
+.info-box .meta .share span,
+.info-box .meta .share a {
+    background: -webkit-gradient(linear,0% 0%,0% 100%,from( #f9fcfd),to( #ffe5cf));
+    height: 19px;
+    display: inline-block;
+    line-height: 19px;
+    padding: 0 5px;
+    border: 1px solid #fcd7b8;
+    margin: 0 0 0 10px;
+}
+
+
+.info-box .pic-box {
+    width: 600px;
+    height: 380px;
+    position: relative;
+    z-index: 10;
+    float: left;
+}
