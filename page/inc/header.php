@@ -58,19 +58,21 @@ include_once(dirname(__FILE__) . '/site-nav.php');
             <span>做最in的自己!</span>
         </div>
     </div>
-    <div id="nav">
-        <ul class="main-nav clearfix">
-            <li class="focus">
+    <div class="navbar">
+        <ul class="nav clearfix">
+            <li class="">
                 <a href="http://xin.taobao.com/">首页</a>
             </li>
-            <li class="yushou last">
-                <a target="_blank" href="http://girl.taobao.com/girl/xin.htm">预定团</a><!--<div class="hot-icon2"></div>-->
+            <li class="divider-vertical"></li>
+            <li>
+                <a target="_blank" href="http://girl.taobao.com/girl/xin.htm">预定团</a>
             </li>
             <li class="right">
-                <a href="http://xin.taobao.com/user/user_center.htm" class="gerenzhongxin">买家须知</a>
+                <a href="#" class="seller-signup">商家报名</a>
             </li>
+            <li class="right divider-vertical"></li>
             <li class="right">
-                <a href="http://xin.taobao.com/user/user_center.htm" class="gerenzhongxin">商家报名</a>
+                <a href="#" class="buyer-notice">买家须知</a>
             </li>
         </ul>
     </div>

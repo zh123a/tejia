@@ -1,9 +1,12 @@
-#site-nav-bd {
-    width: 990px;
-}
-
 /*header START*/
-.slogan {
+.slogan .logo a,
+.slogan .description span,
+.right .seller-signup,
+.right .buyer-notice {
+    background: url('../../src/assets/slogan.png') no-repeat 0 0 transparent;
+}
+.slogan,
+.nav {
     width: 990px;
     margin: 0 auto;
 }
@@ -13,7 +16,7 @@
     margin-bottom: 11px;
 }
 .slogan .logo a{
-    background: url('../../src/assets/slogan.png') no-repeat 0 0 transparent;
+    background-position: 0 0;
     display: inline-block;
     width: 120px;
     height: 50px;
@@ -25,7 +28,7 @@
 }
 
 .slogan .description span {
-    background: url('../../src/assets/slogan.png') no-repeat 0 -56px transparent;
+    background-position: 0 -56px;
     display: inline-block;
     width: 150px;
     height: 23px;
@@ -33,101 +36,57 @@
     text-indent: -9999px;
 }
 
-#nav{
-	position: relative;
+.navbar{
 	background-color: #54ab1c;
-	z-index: 100;
+    height: 32px;
+    border-top: 3px solid #f0f0f0;
 }
-/*header END*/
-/*.main-nav .gerenzhongxin,.hot-icon1,.hot-icon2,.xb-buy1,.xb-buy1:hover,.xb-buy2,.xb-buy2:hover,.xb-over,.xb-spoint,.xb-spoint:hover,.xb-icon-qiang,.title-h2,.title-achor,.head-carousel .navpic li,.head-carousel .navpic li.selected,.head-carousel .navpic li.hovered,.xp-tab .focus .triangle,.xsb-get,.xsb-get:hover,.xcb-button{
-	background: url('http://img02.taobaocdn.com/tps/i2/T14JOMXjpsXXXXXXXX-300-400.png') no-repeat -210px -235px;
-}*/
-/*nav START*/
-.main-nav{
-	position: relative;
-	width: 990px;
-}
-.main-nav li{
+.nav li{
 	position: relative;
 	float: left;
-	height: 35px;
+	height: 32px;
 }
-.main-nav .num{
-	font-size: 11px;
+.nav li.divider-vertical {
+    width: 1px;
+    margin: 11px 0 12px 0;
+    height: 9px;
+    background-color: #9fd57d;
 }
-.main-nav li a,
-.main-nav li a:link{
-	display: block;
-	padding-top: 8px;
-	width: 126px;
-	height: 27px;
-	/*border-left: 1px solid #a80116;*/
+.nav li a,
+.nav li a:link{
+	display: inline-block;
+	padding: 7px 22px 7px 22px;
+	height: 18px;
+	line-height: 18px;
 	font-size: 14px;
 	font-weight: bold;
-	color: #f8f8f8;
+	color: #fff;
 	text-align: center;
 	text-decoration: none;
 }
-.main-nav li a:hover{
-	background-color: #93010e;
+.nav li a:hover{
 	text-decoration: none;
+    color: red;
 }
-.main-nav .focus{
+.nav .active{
 	color: #fff;
-	background-color: #d8010e;
 }
-.main-nav li.last a{
-	border-right: 1px solid #a80116;
-}
-.main-nav .right{
+
+.nav .right{
 	position: relative;
 	float: right;
-	right: 15px;
 }
-.main-nav .right a,
-.main-nav .right a:link{
-	margin-top: 5px;
-	padding-top: 2px;
-	width: 75px;
-	line-height: 25px;
+.nav .right a,
+.nav .right a:link{
 	font-size: 12px;
 	font-weight: normal;
-	border: 0;
 }
-.main-nav .menulist{
-	*display: block;
-	position: absolute;
-	top: 34px;
-	width: 75px;
-	border-top: 1px dotted #fff;
-	background-color: #8A8A8A;
-	z-index: 100;
+.nav .right .seller-signup {
+    background-position: -120px 11px;
+    padding-left: 35px;
 }
-.main-nav  .menulist.hidden{
-	*visibility: hidden;
+.nav .right .buyer-notice {
+    background-position: -136px -22px;
 }
-.main-nav .menulist li{
-	height: 25px;
-}
-.main-nav .menulist a,.main-nav .menulist a:link{
-	margin: 0;
-	padding: 0;
-	line-height: 26px;
-}
-.main-nav .menulist a:hover{
-	color: #F8F8F8;
-	background-color: #b70727;
-}
-.hot-icon1,.hot-icon2{
-	position: absolute;
-	top: -1px;
-	right: 1px;
-	width: 21px;
-	height: 14px;
-	background-position: -263px 2px;
-	z-index: 10;
-}
-.hot-icon2{
-	right: 11px;
-}
+
 /*nav END*/
