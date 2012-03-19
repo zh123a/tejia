@@ -55,13 +55,11 @@
             <li class="mytaobao menu-item">
                 <div class="menu">
                     <a class="menu-hd" href="http://i.taobao.com/my_taobao.htm" target="_top" rel="nofollow">我的淘宝<b></b></a>
-
                     <div class="menu-bd" style="height: 75px;">
                         <div class="menu-bd-panel" id="myTaobaoPanel">
                             <div>
                                 <a href="http://trade.taobao.com/trade/itemlist/list_bought_items.htm" target="_top"
                                    rel="nofollow">已买到的宝贝</a>
-
                             </div>
                             <div>
                                 <a href="http://jianghu.taobao.com/admin/invite/invite_friend.htm" target="_top"
@@ -70,7 +68,6 @@
                             <div>
                                 <a href="http://i.taobao.com/my_taobao.htm" target="_top" rel="nofollow">最新动态</a>
                             </div>
-
                         </div>
                     </div>
                 </div>
@@ -80,9 +77,7 @@
                 <div class="menu">
                     <a class="menu-hd" href="http://mai.taobao.com/seller_admin.htm" target="_top"
                        rel="nofollow">卖家中心<b></b></a>
-
                     <div class="menu-bd">
-
                         <div class="menu-bd-panel">
                             <div>
                                 <a href="http://trade.taobao.com/trade/itemlist/list_sold_items.htm" target="_top"
@@ -93,7 +88,6 @@
                         </div>
                     </div>
                 </div>
-
             </li>
             <li class="service">
                 <a href="http://service.taobao.com/support/main/service_center.htm" target="_top"
@@ -107,11 +101,9 @@
             </li>
             <li class="favorite menu-item">
                 <div class="menu">
-
                     <a class="menu-hd" style="width:36px;"
                        href="http://favorite.taobao.com/collect_list-1-.htm?scjjc=c1" target="_top"
                        rel="nofollow">收藏夹<b></b></a>
-
                     <div class="menu-bd" style="width:82px;height:57px;line-height:1.7;">
                         <div class="menu-bd-panel" style="padding:8px 10px;">
                             <div>
@@ -120,21 +112,17 @@
                                 <a href="http://favorite.taobao.com/collect_list.htm?itemtype=0" target="_top"
                                    rel="nofollow">收藏的店铺</a>
                             </div>
-
                         </div>
                     </div>
                 </div>
             </li>
-
             <li class="services menu-item last">
                 <div id="J_Service" class="menu">
                     <a class="menu-hd" href="http://www.taobao.com/sitemap.php?id=sitemap2"
                        target="_top">网站导航<b></b></a>
-
                     <div id="J_ServicesContainer" class="menu-bd"
                          style="width:202px;width:210px\9;_width:202px;height:337px;"></div>
                 </div>
-
             </li>
         </ul>
     </div>

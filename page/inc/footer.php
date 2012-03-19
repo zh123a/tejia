@@ -1,9 +1,9 @@
 <?php
 /**
- * Huabao footer.
+ * Yushou footer.
  *
- * @author      fahai <fahai@taobao.com>
- * @version     1.0.0 build 12-1-11
+ * @author      temu <temu.psc@taobao.com>
+ * @version     1.0.0 build 12-3-15
  */
 ?>
 

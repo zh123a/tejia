@@ -21,7 +21,18 @@ KISSY.add("order/share/index", function(S) {
                         //TODO 需要根据详情页的实际情况在html页面设置data-shareparam里面的具体信息
                         var target = ev.target;
                         target.nodeName.toUpperCase() !== "A" && (target = DOM.parent(target, "a"));
-                        new TS.Share(target).show('');
+                        //new TS.Share(target).show('');
+                        new TS.Share(
+                            {
+                                "param" : {
+                                    "title":"活动标题",
+                                    "linkurl":"http://",
+                                    "comment":"默认评论内容",
+                                    "itempic":"http://img03.taobaocdn.com/bao/uploaded/i3/T1TtdVXe4dXXcEoywU_015201.jpg_120x120.jpg",
+                                    "props":{"description":"活动描述"}
+                                }
+                            }
+                        ).show('');
                     });
                 })
             });

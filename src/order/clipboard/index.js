@@ -29,7 +29,6 @@ KISSY.add("order/clipboard/index", function(S) {
                     }
                 }
             } catch(e) {
-
             }
         },
         clip:function(txt, callback) {

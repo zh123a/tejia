@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+<head>
+	<title>README</title>
+</head>
+<body>
+	<h1>Readme for Project Pix</h1>
+
+<h2>目录说明</h2>
+
+<ul>
+<li><p>index.php</p>
+
+<ul><li>主页，用来导航 demo 页面和视觉稿</li>
+<li>可能会加入其他东西</li></ul></li>
+<li><p>build.cmd</p>
+
+<ul><li>用于打包部署</li>
+<li>build 目标目录为 build/，之后提交到 CDN/apps/pix/ 下</li></ul></li>
+<li><p>tools/</p>
+
+<ul><li>统一辅助工具，以免部分同学本地没有相关工具</li></ul></li>
+<li><p>docs/</p>
+
+<ul><li>分析文档、脑图和 PPT</li></ul></li>
+<li><p>design/</p>
+
+<ul><li>存放所有视觉稿</li>
+<li>有新的视觉稿后请更新 index.php</li></ul></li>
+<li><p>action/</p>
+
+<ul><li>存放本地模拟的后台 ajax 响应</li>
+<li>基本的响应格式是
+<pre>{
+    success: 1 or 0,
+    data: {},
+    msg: "" // 异常信息
+}</pre></li></ul></li>
+<li><p>page/</p>
+
+<ul><li>存放所有页面</li>
+<li>页面平坦化于此目录下，不再细分目录</li>
+<li>新建的页面统一使用模板页面的格式</li>
+<li>common/
+<ul><li>包含页头和页脚等公共部分</li></ul></li>
+<li>img/
+<ul><li>包含页面需要使用的图片元素，占位符</li></ul></li></ul></li>
+<li><p>src/</p>
+
+<ul><li>存放样式和脚本</li>
+<li>assets/
+<ul><li>存放 page 需要用到的 sprite 雪碧图</li></ul></li>
+<li>base/
+<ul><li>DPL 部分，包括全局样式和脚本</li>
+<li>此 DPL 在编写的时候按照细粒度的方式拆分，比如 base.css 包含 button.css,
+header.css, etc.</li></ul></li>
+<li>page/
+<ul><li>页面级别的 js 和 css</li>
+<li>一个页面只对应一个 js 或 css，并且命名和相应的 page 命名一致</li></ul></li>
+<li>pixel/
+<ul><li>pix 项目的业务模块们，一般是可解耦的、可重用的模块，供页面级的 js 调用</li>
+<li>符合 kissy loader 1.2 的模块编写标准</li>
+<li>之所以使用这个名字，是因为在 1.2 的 loader 中，已经废弃 KISSY.app
+方法，故而所有 mods 都会直接挂载到 KISSY 下。为了可读和防止冲突，取这个名字</li>
+<li><em>注意</em> 模块本身需要用到的样式或雪碧图，置于模块本身的目录下，便于解耦和动态加载</li>
+<li>mod-name/
+<ul><li>pixel/ 目录下平坦地存放每一个模块，模块以模块名命名自己的文件夹</li>
+<li>模块中包含自己的 js 和 css（如果需要的话），可随意切割粒度</li>
+<li>保证有一个 index.js 用来依赖所有需要的脚本，对外提供一个包装接口</li>
+<li>模块文件夹中可以有一个 tests 文件夹，用于存放此模块的测试用例</li></ul></li></ul></li>
+<li>external/
+<ul><li>单独服务于外部环境的脚本</li>
+<li>可能使用原生 js 编写</li></ul></li></ul></li>
+<li><p>build/</p>
+
+<ul><li>合并、压缩、目录变换后的 js / css 存放点</li>
+<li>最终提交到 cdn</li>
+<li>根目录下直接是 base.js / base.css</li>
+<li>page/
+<ul><li>页面级别的 js 和 css</li>
+<li>和 src/page/ 结构一致</li></ul></li>
+<li>pixel/
+<ul><li>模块</li>
+<li>和 src/pixel/ 结构基本一致</li>
+<li>每一个模块中的脚本都被压缩为 index.js</li>
+<li>use 的时候语法使用
+<pre>KISSY.use("pixel/mod-name/", function(S, Mod) {
+    // 注意 mod-name 后面有个斜杠，代表请求的是其目录下的 index.js 文件
+})</pre></li></ul></li></ul></li>
+</ul>
+
+<h2>词汇表</h2>
+
+<ol>
+<li>pix | 项目名</li>
+<li>pix- | DPL 的 className 前缀，用于 DPL 样式的选择器，以及公共模块的脚本钩子</li>
+</ol>
+
+</body>
+</html>

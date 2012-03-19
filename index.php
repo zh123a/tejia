@@ -21,23 +21,23 @@ $product_en = 'order';
         <h3>预售-首页</h3>
         <ul>
             <li class="doing">
-                <a href="page/index.php">我的图集</a>
+                <a href="page/index-tms.php">预售-首页-TMS版本</a>
                 <a href="design/预定团-新.png" class="design">[视觉稿]</a>
             </li>
         </ul>
         <h3>预售 - 介绍页</h3>
         <ul>
             <li class="doing">
-                <a href="page/detail.php">介绍页</a>
+                <a href="page/detail.php">预售-介绍页-TMS版本</a>
                 <a href="design/预定团-介绍页新.png" class="design">[视觉稿]</a>
             </li>
         </ul>
 
-        <h3>Note - 辅助说明</h3>
+        <!--<h3>Note - 辅助说明</h3>
         <ul>
             <li class="done"><a href="page/example.php">示例</a></li>
             <li class="done"><a href="README.html">开发帮助</a></li>
-        </ul>
+        </ul>-->
 
     </div>
     <div id="footer">

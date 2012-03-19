@@ -1,79 +1,47 @@
+#site-nav-bd {
+    width: 990px;
+}
+
 /*header START*/
-#logo a,#logo .sub-logo,#header .search label,#header .search-button{
-	background: url('http://img04.taobaocdn.com/tps/i4/T1avKAXghmXXXXXXXX-220-100.png') no-repeat -1px -1px;
+.slogan {
+    width: 990px;
+    margin: 0 auto;
 }
-#header .wrapper{
-	position: relative;
-	width: 990px;
+.slogan .logo {
+    float: left;
+    margin-top: 19px;
+    margin-bottom: 11px;
 }
-#logo{
-	position: relative;
-	float: none;
-	padding: 0;
-	padding-top: 17px;
-	height: 52px;
-	width: 990px;
+.slogan .logo a{
+    background: url('../../src/assets/slogan.png') no-repeat 0 0 transparent;
+    display: inline-block;
+    width: 120px;
+    height: 50px;
 }
-#logo a{
-	display: block;
-	width: 100px;
-	height: 35px;
+
+.slogan .description {
+    float: right;
+    margin-top: 31px;
 }
-#logo .sub-logo{
-	position: absolute;
-	left: 95px;
-	top: 27px;
-	margin-left: 9px;
-	width: 105px;
-	height: 25px;
-	background-position: -105px -10px;
+
+.slogan .description span {
+    background: url('../../src/assets/slogan.png') no-repeat 0 -56px transparent;
+    display: inline-block;
+    width: 150px;
+    height: 23px;
+    overflow: hidden;
+    text-indent: -9999px;
 }
-#header .search{
-	position: absolute;
-	top: 19px;
-	right: 10px;
-	width: 262px;
-	height: 27px;
-	border: 6px solid #f3f3f3;
-}
-#header .search label{
-	position: absolute;
-	top: 5px;
-	left: 5px;
-	display: block;
-	width: 18px;
-	height: 18px;
-	background-position: -70px -43px;
-	z-index: 2;
-}
-#header .search-key{
-	float: left;
-	padding: 3px 0;
-	width: 204px;
-	height: 17px;
-	border: 2px solid #b70101;
-	border-right: 0;
-}
-#header .search-button{
-	position: absolute;
-	top: 0;
-	right: 0;
-	display: block;
-	width: 56px;
-	height: 27px;
-	border: 0;
-	background-position: 0 -40px;
-	cursor: pointer;
-}
+
 #nav{
 	position: relative;
-	background-color: #b5011a;
+	background-color: #54ab1c;
 	z-index: 100;
 }
 /*header END*/
-.main-nav .gerenzhongxin,.hot-icon1,.hot-icon2,.xb-buy1,.xb-buy1:hover,.xb-buy2,.xb-buy2:hover,.xb-over,.xb-spoint,.xb-spoint:hover,.xb-icon-qiang,.title-h2,.title-achor,.head-carousel .navpic li,.head-carousel .navpic li.selected,.head-carousel .navpic li.hovered,.xp-tab .focus .triangle,.xsb-get,.xsb-get:hover,.xcb-button{
+/*.main-nav .gerenzhongxin,.hot-icon1,.hot-icon2,.xb-buy1,.xb-buy1:hover,.xb-buy2,.xb-buy2:hover,.xb-over,.xb-spoint,.xb-spoint:hover,.xb-icon-qiang,.title-h2,.title-achor,.head-carousel .navpic li,.head-carousel .navpic li.selected,.head-carousel .navpic li.hovered,.xp-tab .focus .triangle,.xsb-get,.xsb-get:hover,.xcb-button{
 	background: url('http://img02.taobaocdn.com/tps/i2/T14JOMXjpsXXXXXXXX-300-400.png') no-repeat -210px -235px;
-}
+}*/
 /*nav START*/
 .main-nav{
 	position: relative;
@@ -87,12 +55,13 @@
 .main-nav .num{
 	font-size: 11px;
 }
-.main-nav li a,.main-nav li a:link{
+.main-nav li a,
+.main-nav li a:link{
 	display: block;
 	padding-top: 8px;
 	width: 126px;
 	height: 27px;
-	border-left: 1px solid #a80116;
+	/*border-left: 1px solid #a80116;*/
 	font-size: 14px;
 	font-weight: bold;
 	color: #f8f8f8;
@@ -115,7 +84,8 @@
 	float: right;
 	right: 15px;
 }
-.main-nav .right a,.main-nav .right a:link{
+.main-nav .right a,
+.main-nav .right a:link{
 	margin-top: 5px;
 	padding-top: 2px;
 	width: 75px;
@@ -123,13 +93,6 @@
 	font-size: 12px;
 	font-weight: normal;
 	border: 0;
-}
-.main-nav .right a:hover{
-	background-color: #f1f1f1;
-}
-.main-nav .right .hover{
-	color: #666;
-	background-color: #f1f1f1;
 }
 .main-nav .menulist{
 	*display: block;

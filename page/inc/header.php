@@ -25,7 +25,9 @@
     <link rel="stylesheet" href="<?= $SRC_DIR ?>/page/<?= $PAGE_NAME ?>.css">
     
     <!-- 暂时使用未压缩版本方便调试 -->
-    <script type="text/javascript" charset="utf-8" src="http://a.tbcdn.cn/??s/kissy/1.2.0/kissy.js,p/global/1.0/global-min.js,p/et/et.js?t=20120101.js"></script>
+    <script>window.g_config={appId:10};</script>
+    <script type="text/javascript" charset="utf-8" src="http://a.tbcdn.cn/??s/kissy/1.2.0/kissy.js?t=20120101.js"></script>
+    <script type="text/javascript" src="http://a.tbcdn.cn/??p/global/1.0/global-min.js,p/et/et.js?t=20120101.js"></script>
     <!-- DPL 脚本定义了模块化 order-mod 的 config 信息，基本不需要改动了，因此直接引用 build 下的 -->
     <script type="text/javascript">
         KISSY.config({
@@ -40,6 +42,7 @@
             ]
         });
     </script>
+
 </head>
 <body>
 <?php
@@ -47,37 +50,27 @@ include_once(dirname(__FILE__) . '/site-nav.php');
 ?>
 <!-- 预售页头 -->
 <div id="header">
-    <div class="wrapper">
-        <h1 id="logo">
-            <a title="中国消费者门户" target="_top" href="http://www.taobao.com"></a>
-            <a target="_top" class="sub-logo" href="http://xin.taobao.com"></a>
-        </h1>
-        <div class="search">
-            <form target="_blank" method="get" action="http://s.taobao.com/search">
-                <label id="J_searchicon" class="key" for="q"></label>
-                <input class="search-key" autocomplete="off" name="q" id="q"/>
-                <button class="search-button" type="submit"></button>
-            </form>
+    <div class="slogan clearfix">
+        <div class="logo">
+            <a target="_top" title="淘宝预售" href="http:yu.taobao.com"></a>
+        </div>
+        <div class="description">
+            <span>做最in的自己!</span>
         </div>
     </div>
     <div id="nav">
         <ul class="main-nav clearfix">
             <li class="focus">
-                <a href="http://xin.taobao.com/">新品首页</a>
+                <a href="http://xin.taobao.com/">首页</a>
             </li>
-            <li>
-                <a href="http://xin.taobao.com/legend.htm">更多新品<em class="num">(7)</em></a>
+            <li class="yushou last">
+                <a target="_blank" href="http://girl.taobao.com/girl/xin.htm">预定团</a><!--<div class="hot-icon2"></div>-->
             </li>
-            <li class="last">
-                <a target="_blank" href="http://girl.taobao.com/girl/xin.htm">女装新品</a><div class="hot-icon2"></div>
+            <li class="right">
+                <a href="http://xin.taobao.com/user/user_center.htm" class="gerenzhongxin">买家须知</a>
             </li>
-            <li class="right" id="J_person">
-                <a href="http://xin.taobao.com/user/user_center.htm" class="gerenzhongxin">个人中心</a>
-                <ul class="menulist hidden">
-                    <li><a href="http://xin.taobao.com/user/user_center.htm">活动历史</a></li>
-                    <li><a href="http://xin.taobao.com/user/user_subscribe.htm">订阅设置</a></li>
-                    <li><a href="http://xin.taobao.com/user/invite_record.htm">邀请记录</a></li>
-                </ul>
+            <li class="right">
+                <a href="http://xin.taobao.com/user/user_center.htm" class="gerenzhongxin">商家报名</a>
             </li>
         </ul>
     </div>

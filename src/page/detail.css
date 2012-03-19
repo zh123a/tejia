@@ -5,27 +5,40 @@
 
 .info-box {
     border: 1px solid #ddd;
-    padding: 17px 0 11px 0;
+    padding: 20px 0 20px 20px;
 }
+.info-box .pic-box {
+    width: 600px;
+    height: 360px;
+    position: relative;
+    z-index: 10;
+    float: left;
+}
+
 .info-box .meta {
     position: relative;
-    border: 1px solid red;
-    height: 380px;
-    padding-left: 80px;
-    width: 304px;
+    height: 360px;
+    padding-left: 60px;
+    width: 300px;
     float: left;
-    margin-left: 2px;
     padding-top: 0;
     z-index: 20;
+    font-family: "Microsoft Yahei","Arial","Verda","tahoma";
 }
 
 .info-box .meta .actualPrice {
     font-size: 48px;
     color: #d70000;
+    height: 48px;
+    line-height: 48px;
+    margin: 5px 0;
+}
+.info-box .meta .actualPrice em{
+    font-size: 24px;
+    color: #666;
 }
 .info-box .meta .actualPrice span {
     font-size: 24px;
-    color: #666;
 }
 
 .info-box .meta .listPrice {
@@ -50,22 +63,30 @@
     margin: 5px 0;
 }
 .info-box .meta .orderNow a {
-    height: 35px;
-    line-height: 35px;
-    width: 126px;
+    height: 37px;
+    line-height: 37px;
+    width: 128px;
     text-align: center;
     display: inline-block;
-    border-radius: 2px;
-    color: white;
-    text-shadow: 0 0 0 transparent,1px 1px 1px #75491e;
     font-size: 20px;
-    background: -webkit-gradient(linear,0% 0%,0% 100%,from( #e7a46b),to( #a55c13));
+    text-indent: -300px;
+    overflow: hidden;
+    float: left;
+    color: white;
     cursor: pointer;
     text-decoration: none;
+    background: url("http://img02.taobaocdn.com/tps/i2/T1QguTXcBvXXXXXXXX-128-60.png") no-repeat 0 -23px #e7a46b;
+    text-shadow: 0 0 0 transparent,1px 1px 1px #75491e;
+    outline: none;
 }
 
 .info-box .meta .share {
     margin: 10px 0;
+}
+.info-box .meta .share input,
+.info-box .meta .share span,
+.info-box .meta .share img {
+    float: left;
 }
 .info-box .meta .share input {
     border: 1px solid #e7e7e7;
@@ -73,10 +94,11 @@
     width: 130px;
     line-height: 20px;
     color: #e7e7e7;
+    float: left;
 }
 
-.info-box .meta .share span,
-.info-box .meta .share a {
+.info-box .meta .share span{
+    float: left;
     background: -webkit-gradient(linear,0% 0%,0% 100%,from( #f9fcfd),to( #ffe5cf));
     height: 19px;
     display: inline-block;
@@ -86,11 +108,14 @@
     margin: 0 0 0 10px;
 }
 
+.info-box .meta .share img{
+    margin: 0 0 0 10px;
+    cursor: pointer;
+}
 
-.info-box .pic-box {
-    width: 600px;
-    height: 380px;
-    position: relative;
-    z-index: 10;
-    float: left;
+
+.info-detail {
+    border: 1px solid #DDDDDD;
+    border-top: none;
+    padding: 20px;
 }

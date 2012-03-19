@@ -91,39 +91,165 @@
 }
 
 
+#content:after {
+    content: '\0020';
+    display: block;
+    height: 0;
+    clear: both;
+}
+
 /* banner start */
 #content .banner {
     border-bottom: 1px solid #ccc;
-    height: 49px;
+    height: 60px;
     margin: 0 auto;
 }
 
-#content .banner-box {
+#content .banner ul {
     width: 990px;
-    margin-left: auto;
-    margin-right: auto;
-    height: 49px;
+    margin: 0 auto;
+    height: 60px;
+    line-height: 60px;
 }
-
-#content .banner-box img.customize {
-    padding: 10px 0 0 10px;
-}
-
-#content .banner-box span {
-    font-size: 30px;
-    height: 49px;
-    line-height: 49px;
-    display: inline-block;
-    font-family: 'WenQuanYi Micro Hei Mono', 'WenQuanYi Micro Hei', 'Microsoft Yahei Mono', 'Microsoft Yahei', sans-serif;
-    float: right;
-}
-#content .banner-box ul {
-    float: right;
-    height: 49px;
-    line-height: 49px;
-}
-#content .banner-box ul li {
+#content .banner li {
     float: left;
-    width: 50px;
+    width: 123px;
+    _width: 120px;
     text-align: center;
+}
+#content .banner li a {
+    display: inline-block;
+    height: 60px;
+    line-height: 60px;
+    width: 123px;
+    _width: 120px;
+    float: left;
+    text-align: center;
+    outline: none;
+}
+#content .banner li a:hover {
+    text-decoration: none;
+}
+#content .banner li.pre a,
+#content .banner li.next a {
+    background: url("http://img04.taobaocdn.com/tps/i4/T1qXSUXgxjXXXXXXXX-10-121.png") no-repeat 0 0 transparent;
+    width: 113px;
+    _width: 110px;
+}
+#content .banner li.pre a {
+    background-position: 13px -77px;
+    padding-left: 10px;
+}
+#content .banner li.next a {
+    background-position: 110px 26px;
+    padding-right: 10px;
+}
+#content .banner li a strong,
+#content .banner li a span {
+    float: left;
+    width: 123px;
+    cursor: pointer;
+    color: #333;
+    display: block;
+    font-family: "Î¢ÈíÑÅºÚ";
+    height: 20px;
+    line-height: 20px;
+
+}
+#content .banner li.pre a strong,
+#content .banner li.next a strong,
+#content .banner li.pre a span,
+#content .banner li.next a span {
+    width: 113px;
+    _width: 100px;
+}
+#content .banner li a strong {
+    padding-top: 15px;
+    font-size: 14px;
+}
+#content .banner li a span {
+    padding-bottom: 5px;
+    font-size: 12px;
+}
+
+#content .banner li a:hover strong,
+#content .banner li a:hover span,
+#content .banner li a:hover h3,
+#content .banner li.current a strong,
+#content .banner li.current a span,
+#content .banner li.current h3{
+    color: #d70000;
+}
+#content .banner li.current{
+    height: 56px;
+    border-bottom: 4px solid #e14040;
+}
+#content .banner li.today {
+    width: 252px;
+}
+#content .banner li.today a {
+    width: 252px;
+    padding-left: 12px;
+}
+#content .banner li.today a div {
+    float: left;
+    height: 56px;
+    width: 60px;
+}
+#content .banner li.today a strong,
+#content .banner li.today a span {
+    width: 60px;
+}
+#content .banner li.today a:hover strong,
+#content .banner li.today a:hover span {
+    color: #d70000;
+}
+#content .banner li h3 {
+    width:180px;
+    float:left;
+    font-size: 32px;
+    font-family: "Î¢ÈíÑÅºÚ";
+    font-weight: normal;
+    color: #333;
+}
+
+
+/*  Ò³Ãæµ×²¿×ÊÔ´Î» */
+.tmall-banner {
+    width: 990px;
+    margin: 0 auto 17px;
+    padding-top: 20px;
+}
+.tmall-banner .hd {
+    /*border-bottom: 1px solid #E9D9CE;*/
+    height: 0;
+    margin-bottom: 19px;
+    position: relative;
+    width: 990px;
+}
+.tmall-banner .hd h3 {
+    width: 236px;
+    position: absolute;
+    left: 375px;
+    height: 19px;
+    text-align: center;
+    color: #B5011A;
+    font-family: "Microsoft Yahei","Arial","Verda","tahoma";
+}
+.tmall-banner ul {
+    overflow: hidden;
+    zoom: 1;
+    margin-right: -23px;
+}
+.tmall-banner ul li {
+    float: left;
+    margin: 10px 23px 10px 0;
+}
+.tmall-banner ul li a {
+    display: block;
+    font-size: 0;
+}
+.tmall-banner ul li a img {
+    width: 230px;
+    height: 160px;
 }
