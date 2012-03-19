@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<project name="project-build" default="build" basedir=".">
+    <description>Build file for project</description>
+
+    <dirname property="current.dir" file="${ant.file.project-build}"/>
+
+    <property name="root.dir" location="${current.dir}"/>
+	<property name="cdn.dir" location="${root.dir}/../../vhosts/a.tbcdn.cn/"/>
+    <property name="deploy.dir" location="${cdn.dir}/apps/pix/"/>
+    <property name="src.dir" location="${root.dir}/src/"/>
+    <property name="build.dir" location="${root.dir}/build/"/>
+
+    <property name="ourtools.dir" location="${root.dir}/tools/"/>
+    <property name="yui-compressor" location="${ourtools.dir}/yui-compressor/init.cmd"/>
+    <property name="closure-compiler" location="${ourtools.dir}/closure-compiler/init.cmd"/>
+
+    <property name="charset" value="gbk"/>
+
+    <!--Prepare material-->
+    <target name="prepare">
+        <delete includeemptydirs="true">
+            <fileset dir="${build.dir}" excludes="**/*.svn"/>
+        </delete>
+        <mkdir dir="${build.dir}"/>
+    </target>
+
+    <!--Concat css and js-->
+    <target name="concat">
+        <subant target="" failonerror="false">
+            <fileset dir="${src.dir}" includes="**/build.xml"/>
+        </subant>
+    </target>
+
+    <!--Compress css and js-->
+    <target name="compress">
+        <apply executable="${yui-compressor}" failonerror="false">
+            <fileset dir="${build.dir}" includes="**/*.css"/>
+        </apply>
+        <apply executable="${closure-compiler}" failonerror="false">
+            <fileset dir="${build.dir}" includes="**/*.js"/>
+        </apply>
+    </target>
+
+    <!--Deploy to CDN-->
+    <target name="deploy">
+        <copy todir="${deploy.dir}">
+            <fileset dir="${build.dir}" excludes=""/>
+        </copy>
+    </target>
+
+    <!--Wind up-->
+    <target name="clean">
+
+    </target>
+
+    <target name="build" depends="prepare, concat, compress, deploy, clean">
+    </target>
+</project>

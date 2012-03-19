@@ -1,0 +1,37 @@
+Closure Compiler
+================
+
+功能概述
+--------
+
+默认能够压缩 js 文件，如果开启了高级模式，则可以对源码进行更深层次的扫描分析、预编译等工作
+
+使用方法
+--------
+
+1.	windows 环境下执行命令：
+		
+		init.cmd $file_path
+
+2.	以外部工具形式集成的使用方式类同命令行，有几个额外注意点：
+
+	1.	可能需要 init.cmd 的完整路径
+	2.	可能需要 $file_path 的完整路径
+	3.	以上两者需参考命令行工作目录
+	4.	对于 TC 这种接受多文件参数的，可以调用 batch.cmd 来批量处理选中文件
+
+3.	使用 install.cmd 安装文件扩展后，右键菜单执行
+
+4.	若想使用高级模式，或者对有依赖关系的一组文件进行编译，则需要手动调用 compiler.jar，
+	具体参数见有关文档
+
+输出结果
+--------
+
+1.	在输入文件目录输出压缩后的文件，$file_name.source.js 输出 $file_name.js；$file_name.js 输出
+	$file_name-min.js
+
+参考资料
+--------
+
+*	[closure-compiler]:	http://code.google.com/closure/compiler/

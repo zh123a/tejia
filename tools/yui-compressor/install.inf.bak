@@ -1,0 +1,17 @@
+[Version]
+Signature="$CHICAGO$"
+Provider=lifesinger@gmail.com, 2009
+
+[DefaultInstall]
+AddReg=Install_AddReg
+
+[DefaultUnInstall]
+DelReg=Uninstall_DelReg
+
+[Uninstall_DelReg]
+hkcr,"*\Shell\yui-compressor"
+
+[Install_AddReg]
+hkcr,"*\Shell\yui-compressor",,,"Ñ¹Ëõ CSS »ò JS"
+hkcr,"*\Shell\yui-compressor\command",,,"""%01%\init.cmd"" ""%%1"""
+

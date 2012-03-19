@@ -1,0 +1,1 @@
+function doSomethingElse(){}(function(){})();
