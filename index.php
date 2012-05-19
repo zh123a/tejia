@@ -1,6 +1,6 @@
 <?php
-$product_cn = '预售项目';
-$product_en = 'order';
+$product_cn = '特价项目';
+$product_en = 'te';
 ?>
 <!doctype html>
 <html>

@@ -1,0 +1,36 @@
+#success{
+    width:687px;
+    height:120px;
+    padding-top:20px;
+    padding-left:65px;
+    border: 1px solid #7ecd44;
+    margin: 20px auto;
+    color:#4c4c4c;
+    background-color: #f0ffe5;
+    position:relative;
+}
+#success .success-icon{
+    width:32px;
+    height:31px;
+    position:absolute;
+    top:24px;
+    left:24px;
+    display:block;
+    background: url(http://img02.taobaocdn.com/tps/i2/T1VTa5XdXlXXXXXXXX-433-52.png) no-repeat -323px 0;
+}
+#success h2{
+    font-size:16px;
+
+    line-height:30px;
+}
+#success .p{
+    line-height:20px;
+    margin-bottom:14px;
+}
+#success .now a{
+    color:#ff6600;
+}
+#success .now span{
+    color:#b3b3b3;
+    padding: 0 12px;
+}

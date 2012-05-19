@@ -1,0 +1,370 @@
+body{
+    background-color: #f6f6f6;
+}
+#content{
+    width:990px;
+    position:relative;
+}
+.list-nav a,.pro-hot,.pro-cheap,.pro-price strong,.buynow,.helper-tl,.helper dl dt,#J_Totop{
+    background-image:url(http://img02.taobaocdn.com/tps/i2/T1Hfy_XgNvXXXXXXXX-2000-498.png);
+    background-repeat:no-repeat;
+}
+.title,.forcenter,.buynow{
+    background-image: url(http://img01.taobaocdn.com/tps/i1/T1lme_XhdhXXXXXXXX-180-689.png);
+    background-repeat:no-repeat;
+}
+.list-nav{
+    height:78px;
+    margin-top:14px;
+    margin-bottom:15px;
+    background-position:0 -420px;
+}
+.list-nav a{
+    float:left;
+    width:110px;
+    height:69px;
+}
+.list-nav a.nav-ladies{
+    background-position:0px -420px;
+    height:69px;
+}
+.list-nav a.nav-men{
+    background-position:-110px -420px;
+    height:69px;
+}
+.list-nav a.nav-shoes{
+    background-position:-220px -420px;
+    height:69px;
+}
+.list-nav a.nav-bags{
+    background-position:-330px -420px;
+    height:69px;
+}
+.list-nav a.nav-beauty{
+    background-position:-440px -420px;
+    height:69px;
+}
+.list-nav a.nav-home{
+    background-position:-550px -420px;
+    height:69px;
+}
+.list-nav a.nav-baby{
+    background-position:-660px -420px;
+    height:69px;
+}
+.list-nav a.nav-food{
+    background-position:-770px -420px;
+    height:69px;
+}
+.list-nav a.nav-digit{
+    background-position:-880px -420px;
+    height:69px;
+}
+.list-nav a.nav-ladies-cur{
+    background-position:-1000px -420px;
+    height:78px;
+}
+.list-nav a.nav-men-cur{
+    background-position:-1110px -420px;
+    height:78px;
+}
+.list-nav a.nav-shoes-cur{
+    background-position:-1220px -420px;
+    height:78px;
+}
+.list-nav a.nav-bags-cur{
+    background-position:-1330px -420px;
+    height:78px;
+}
+.list-nav a.nav-beauty-cur{
+    background-position:-1440px -420px;
+    height:78px;
+}
+.list-nav a.nav-home-cur{
+    background-position:-1550px -420px;
+    height:78px;
+}
+.list-nav a.nav-baby-cur{
+    background-position:-1660px -420px;
+    height:78px;
+}
+.list-nav a.nav-food-cur{
+    background-position:-1770px -420px;
+    height:78px;
+}
+.list-nav a.nav-digit-cur{
+    background-position:-1880px -420px;
+    height:78px;
+}
+.items-con{
+    float:left;
+    border: 1px solid #e0e2e7;
+    border-top: 2px solid #e0e2e7;
+    width:988px;
+   background-color: #fff;
+}
+.items-box{
+    float:left;
+    width:179px;
+    padding: 27px 0px 20px 19px;
+    _display:inline;
+    border-bottom: 1px solid #dee1e7;
+    overflow: hidden;
+    background-color: #fff;
+}
+.items{
+    width:160px;
+    padding-right:18px;
+    border-right:1px solid #eff0f3;
+    height:251px;
+    text-align:center;
+    position:relative;
+    
+}
+.items-special{
+    width:177px;
+    
+}
+.items-special .items{
+    border: 0;
+    padding-right:18px;
+}
+.items .pro-img img{
+    width:160px;
+    height:160px;
+}
+.pro-name{
+   height:24px;
+   text-align:center;
+    position:relative;
+    padding-top:10px;
+}
+.pro-name a{
+    color:#4d4d4d;
+    font-size:14px;
+}
+.pro-hot{
+    position:absolute;
+    top:-9px;
+    right:0;
+    display:block;
+    width:29px;
+    height:19px;
+    background-position:-683px -25px;
+}
+.pro-cheap{
+    position:absolute;
+    top:-9px;
+    right:0;
+    display:block;
+    width:29px;
+    height:19px;
+    background-position:-638px -25px;
+}
+.pro-price{
+    height:24px;
+    line-height:24px;
+    text-align:center;
+}
+.pro-price span{
+    text-decoration: line-through;
+    color:#808080;
+    font-family: Tahoma;
+}
+.pro-price strong{
+    padding-left:12px;
+    background-position: -516px -26px;
+    *background-position: -516px -20px;
+    color:#d10303;
+    font-family: tahoma;
+    font-size:18px;
+    font-weight: normal;
+}
+.pro-price strong b{
+    font-size:22px;
+    font-weight:normal;
+}
+.buy{
+    text-align: center;
+    margin-top:4px;
+    height:22px;
+    width:160px;
+}
+
+.forcenter{
+    display:block;
+    text-align: center;
+    width: 70px;
+    line-height:22px;
+    color:#3e9711;
+    margin: 0 auto;
+    height:22px;
+    background-position:-100px -541px;
+    background-repeat: no-repeat;
+}
+
+.buynow{
+    background-position:0 -500px;
+    width:70px;
+    height:22px;
+    line-height:22px;
+    display:block;
+
+    color:#fff;
+    display:none;
+    margin: 0 auto;
+}
+.buynow:hover{
+    color:#fff;
+}
+/*helper start*/
+.helper-con{
+    background-color: #fff;
+    padding-top:12px;
+}
+.helper{
+    clear:both;
+    margin-top:15px;
+    border: 1px solid #e4e4e4;
+    background-color: #fff;
+    width:988px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.helper-title{
+    height:47px;
+    border-bottom: 2px solid #f3f3f3;
+    padding-top:14px;
+}
+.helper-tl{
+    height:33px;
+    margin-left:78px;
+    width:823px;
+    background-position:-720px -32px;
+}
+
+
+.helper-bd{
+    height:137px;
+}
+.helper dl{
+    margin-top:20px;
+    width:196px;
+    height:103px;
+    border-right: 1px dotted #dddddd;
+    float:left;
+    color:#666;
+}
+.helper dl dt{
+    margin-left:53px;
+    width:130px;
+    height:20px;
+    margin-bottom:10px;
+}
+.helper dl dd{
+    margin-left:53px;
+    width:130px;
+}
+.helper .helper-email{
+    border: none;
+}
+.helper dd a{
+    color:#666;
+}
+.helper-about dt{
+    background-position:0 -65px;
+}
+.helper-suggest dt{
+    background-position: -180px -65px;
+}
+.helper-question dt{
+    background-position: -381px -65px;
+}
+.helper-contact dt{
+    background-position: -594px -65px;
+}
+.helper-email dt{
+    background-position:-793px -65px;
+}
+/*helper end*/
+#J_Totop{
+    font-family: Arial;
+    position: fixed;
+    left: 50%;
+    bottom: 127px;
+    margin-left: 510px;
+    width: 32px;
+    height:32px;
+    _position: absolute;
+    line-height: 32px;
+    display: none;
+    text-align: center;
+    background-position:-1700px -100px;
+    
+}
+.no-border{
+    border-bottom: none;
+}
+/*∑÷“≥start*/
+.page-prev,.page-next{
+    background-image:url(http://img02.taobaocdn.com/tps/i2/T1Hfy_XgNvXXXXXXXX-2000-498.png);
+    background-repeat:no-repeat;
+}
+.page{
+    height:27px;
+    text-align: center;
+    clear:both;
+    padding: 37px 0;
+}
+
+.page a,.page span{
+    display: inline-block;
+    min-width: 16px;
+    _width: 16px;
+    height: 24px;
+    margin: 0;
+    margin-right: 3px	9;
+    padding: 0 5px;
+    text-align: center;
+    vertical-align: top;
+    line-height: 24px;
+    white-space: nowrap;
+    font-family: Tahoma,SimSun,Arial;
+    border: 1px solid #e6e8ec;
+    color:#aaaaaa;
+}
+.page a:hover{
+    border: 1px solid #ff6600;
+    color:#ff6600;
+    text-decoration: none;
+}
+.page .page-prev{
+    padding-left:14px;
+    background-position:-1990px -93px;
+}
+.page .page-next{
+    padding-right:14px;
+    background-position: -1950px -132px;
+}
+.page .page-cur {
+    border: 0;
+    color: #FD6D01;
+    padding: 0 5px;
+    display:inline-block;
+    height:26px;
+    line-height:26px;
+   
+
+}
+/*∑÷“≥end*/
+.soldout{
+    background:url(http://img02.taobaocdn.com/tps/i2/T1kra9XoJfXXXXXXXX-126-90.png) no-repeat 0 0;
+    /*_background:none; _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://taobao-473cda2c/workspace/order/src/assets/soldout1.png" ,sizingMethod="crop");*/
+    _background:url(http://img01.taobaocdn.com/tps/i1/T1KHq9XXXgXXXXXXXX-126-90.gif) no-repeat 0 0;
+    position: absolute;
+    width:126px;
+    height:90px;
+    top:45px;
+    left:18px;
+    display:block;
+}

@@ -1,0 +1,192 @@
+#site-nav-bd {
+    width: 990px;
+}
+/*clearfix*/
+.clearfix {
+    zoom: 1;
+}
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: block;
+    height: 0;
+}
+
+#content {
+    
+}
+#content:after {
+    content: '\0020';
+    display: block;
+    height: 0;
+    clear: both;
+}
+/*footer START*/
+
+
+
+#footer{
+	padding-top: 20px;
+	height: 100px;
+    /*border-top: 1px solid #c4bdb5;*/
+    text-align: center;
+    background-color: #fff;
+    background-position: 0 -347px;
+    clear: both;
+}
+
+#footer a{
+	color: #130c02;
+}
+
+#footer .footer-bd {
+    border: 2px solid #DDDDDD;
+    border-radius: 2px 2px 2px 2px;
+    width: 986px;
+    margin: 0 auto;
+}
+
+#footer .service {
+    overflow: hidden;
+    padding: 18px 0 15px;
+    width: 986px;
+}
+
+#footer .service dl {
+    border-right: 1px dashed #D3D3D3;
+    float: left;
+    height: 112px;
+    padding: 0 44px;
+}
+
+#footer .service dl.item-3 {
+    padding: 0 55px;
+}
+
+#footer .service dl.item-5 {
+    border: medium none;
+}
+
+#footer .service dl dt {
+    color: #5E5E5E;
+    font-family: "Î¢ÈíÑÅºÚ";
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#footer .service dl dd {
+    background-position: -396px -31px;
+    line-height: 1.8;
+    text-indent: 10px;
+}
+
+#footer .service dl dd a:link,
+#footer .service dl dd a:visited,
+#footer .service dl dd a:hover {
+    color: #666666;
+}
+
+
+#footer .foot-nav {
+    display: block;
+    height: 20px;
+    margin: 20px auto 0 auto;
+}
+#footer .foot-nav a {
+    margin: 0 7px;
+}
+#footer .ali-group {
+    margin: 5px auto;
+}
+#footer .ali-group a {
+    margin: 0 1px;
+}
+#footer .copyright {
+    clear: both;
+    margin: 15px auto 0;
+}
+#server-num {
+    color: #fff;
+    font-size: 11px;
+}
+/*footer END*//*header START*/
+#te-header{
+    width:990px;
+    margin: 0 auto;
+}
+#logo {
+    padding: 16px 0 4px 0;
+}
+#logo .sub-logo {
+    width: 99px;
+    height: 23px;
+    margin: 10px 0 0 5px;
+    background: url(http://img03.taobaocdn.com/tps/i3/T1zS0SXhpuXXXXXXXX-99-23.png) 0 0;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+}
+#te-nav, .tejia-nav li, .tejia-menu li, .tejia-notice, .tejia-collect, .tejia-weibo{
+    background-image: url(http://img03.taobaocdn.com/tps/i3/T1Dc5TXjNkXXXXXXXX-18-197.png);
+    background-repeat: no-repeat;
+}
+#te-nav{
+    height: 35px;
+    padding-bottom: 4px;
+    background-position: 0 0;
+    background-repeat: repeat-x;
+    line-height: 35px;
+    width: 990px;
+    margin: 10px auto 6px auto;
+}
+.tejia-nav {
+    float: left;
+}
+.tejia-nav li {
+    width: 106px;
+    text-align: center;
+    background-position: right -40px;
+    height: 35px;
+    float: left;
+    line-height: 35px;
+}
+.tejia-nav li a {
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+.tejia-nav li.tejia-nav-last{
+    background: none;
+}
+.tejia-menu {
+    float: right;
+}
+.tejia-menu li {
+    float: left;
+    _display: inline;
+    padding: 0 13px;
+    background-position: right -40px;
+    height: 35px;
+    position: relative;
+}
+.tejia-menu li a {
+    line-height: 18px;
+    color: white;
+    display: inline-block;
+    _margin-top: 8px;
+}
+.tejia-collect {
+    background-position: 0 -115px;
+    padding-left: 23px;
+}
+.tejia-menu li.tejia-menu-last {
+    background: none;
+}
+.tejia-weibo {
+    background-position: 0 -146px;
+    padding-left: 23px;
+}
+/**
+ *XXX:header end
+ */

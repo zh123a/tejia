@@ -1,0 +1,98 @@
+#content .slide {
+    width: 990px;
+    height: 505px;
+    margin: 0 auto;
+}
+#content .slide a {
+    font-size: 0;
+    margin: 10px 0;
+    display: inline-block;
+}
+#content .list {
+    width: 990px;
+    margin: 0 auto;
+}
+
+.list .catalog {
+    height: 38px;
+    border-bottom: 2px solid #54ab1c;
+    padding-left: 100px;
+    background: url("../../src/assets/slogan.png") no-repeat -50px -112px #fff;
+}
+.list .catalog li {
+    float: left;
+    height: 38px;
+    line-height: 38px;
+    padding: 0 9px;
+}
+.list .catalog li a {
+    height: 38px;
+    line-height: 38px;
+    color: #3e3e3e;
+    font-size: 14px;
+}
+
+.list .catalog li.active a,
+.list .catalog li a:hover {
+    color: #54ab1c;
+
+}
+.list .catalog li a:hover {
+    text-decoration: none;;
+}
+.list .catalog li.active a {
+    font-weight: bold;
+}
+.list .catalog li.active a em,
+.list .catalog li a:hover em {
+    font-weight: normal;
+}
+
+.list .catalog.sticky {
+    margin-top: -1px;
+    position: fixed;
+    top: 0;
+    z-index: 90000;
+    box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+    _position: relative;
+    _margin-top: 10px;
+}
+
+#catalogbar-holder {
+    display: none;
+}
+
+.list .list-content {
+    background-color: #fff;
+    padding-left: 2px;
+}
+.list .list-content ul li {
+    float: left;
+    width: 220px;
+    padding: 13px;
+    border-right: 1px solid #e5e5e5;
+}
+.list .list-content ul li.last {
+    border-right: none;
+}
+
+.list .list-content ul li a.imglink {
+    font-size: 0;
+}
+
+.list .list-content ul li h6 a {
+    color: #3e3e3e;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: normal;
+}
+.list .list-content ul li h6 a:hover {
+    text-decoration: none;
+}
+.list .list-content ul li span{
+    color: #999;
+    padding: 5px 0;
+    display: block;
+}

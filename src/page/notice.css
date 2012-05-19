@@ -1,0 +1,120 @@
+body{
+    background-color: #f6f6f6;
+    
+}
+#content{
+    width:990px;
+    margin: 0 auto;
+}
+#start-notice{
+    background: url(http://img03.taobaocdn.com/tps/i3/T11fG_XkpkXXXXXXXX-717-960.png) no-repeat 0 0;
+    width:629px;
+    height:340px;
+    margin:80px 0 100px 143px;
+    padding-top: 620px;
+    padding-left:88px;
+    position:relative;
+}
+#start-notice p{
+    height:28px;
+    line-height:28px;
+    font-size:14px;
+}
+#start-notice a{
+    color:#cc0208;
+    text-decoration: underline;
+}
+#tosign{
+    position: absolute;
+    top:798px;
+    left:278px;
+    width:149px;
+    height:40px;
+    display:block;
+    _cursor:pointer;
+}
+#start-notice p span{
+    background-color:#ffe0c4;
+}
+.helper-tl,.helper-talk,.helper-collect,.helper dl dt,.totop,.sidebar-bg,.tuan-bd,#ten .tuan-nav,#fourteen .tuan-nav,#twenty .tuan-nav,#nine .tuan-nav{
+    background-image:url(http://img04.taobaocdn.com/tps/i4/T1c8GAXix3XXXXXXXX-2000-498.png);
+    background-repeat: no-repeat;
+}
+.helper-con{
+    background-color: #fff;
+    padding-top:12px;
+}
+.helper{
+    clear:both;
+    margin-top:15px;
+    border: 1px solid #e4e4e4;
+    background-color: #fff;
+    width:988px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.helper-title{
+    height:47px;
+    border-bottom: 2px solid #f3f3f3;
+    padding-top:14px;
+}
+.helper-tl{
+
+    height:33px;
+    margin-left:78px;
+    width:823px;
+    background-position: -720px -32px;
+}
+
+.helper-talk{
+    background-position:-1900px -20px;
+}
+.helper-collect{
+    background-position: -1900px -47px;
+}
+.helper-bd{
+    height:137px;
+}
+.helper dl{
+    margin-top:20px;
+    width:196px;
+    height:103px;
+    border-right: 1px dotted #dddddd;
+    float:left;
+    color:#666;
+}
+.helper dl dt{
+    margin-left:53px;
+    width:130px;
+    height:20px;
+    margin-bottom:10px;
+}
+.helper dl dd{
+    margin-left:53px;
+    width:130px;
+}
+.helper .helper-email{
+    border: none;
+}
+.helper dd a{
+    color:#666;
+}
+.helper-about dt{
+    background-position:0 -65px;
+}
+.helper-suggest dt{
+    background-position: -180px -65px;
+}
+.helper-question dt{
+    background-position: -381px -65px;
+}
+.helper-contact dt{
+    background-position: -594px -65px;
+}
+.helper-email dt{
+    background-position:-793px -65px;
+}
+
+
+
+

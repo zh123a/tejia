@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="GBK">
+    <title></title>
+    <script src="http://a.tbcdn.cn/s/kissy/1.2.0/kissy-min.js"></script>
+</head>
+<body>
+    <div id="content">
+     <form id="apply" name="apply" action="">
+         <ul class="form-apply">
+             <li class="form-apply-t">
+                1.填写特价商品信息
+             </li>
+             <li>
+                 <label class="hd required">宝贝连接：</label>
+                 <input type="text" class="text J_Pro" name="link">
+                 <div class="valid-under" style="display:none;"><p class="estate"><span class="label"></span></p></div>
+             </li>
+             <li>
+                 <label class="hd required">宝贝名称：</label>
+                 <input type="text" class="text" id="J_Name" name="name">
+                 <div class="valid-under" style="display:none;"><p class="estate"><span class="label"></span></p></div>
+             </li>
+             <li>
+                 <label class="hd required">宝贝折扣价格：</label>
+                 <input type="text" class="text" id="J_Price" name="price">
+                 <div class="valid-under" style="display:none;"><p class="estate"><span class="label"></span></p></div>
+             </li>
+             <li>
+                 <label class="hd required">提供数量：</label>
+
+                 <input class="text" type="text" name="num" id="num">
+                 <div class="valid-under" style="display:none;"><p class="estate"><span class="label"></span></p></div>
+             </li>
+             <li>
+                 <label class="hd required">是否包邮：</label>
+                 <lable for="baoyou"><input type="checkbox" checked="checked" class="checkbox" id="baoyou"></lable>
+                 <span class="baoyou-text">(活动宝贝需要全国包邮)</span>
+                 <div class="valid-under" style="display:none;"><p class="estate"><span class="label"></span></p></div>
+             </li>
+             <li>
+                 <label class="hd required">宝贝白底图片：</label>
+                 <i class="for-file"></i>
+                 <input type="file" class="file" name="fiter1" id="fiter1" data-valid="{required:false,fiter:['gif,jpg,jpeg','只允许的格式为{0}']}">
+                 <span class="file-txt">请上传 430x430 以上的白色背景产品图，支持JPG、JPEG、PNG格式（图片大小不超过1M）图片质量将影响宝贝销量，请保证图片清晰和美观。不良图片将有可能导致审核不通过</span>
+                <div class="valid-under" style="display:none;"><p class="estate"><span class="label"></span></p></div>
+             </li>
+             <li>
+                 <label class="hd required">授权文件图片：</label>
+                 <i class="for-file"></i>
+                 <input type="file" class="file" name="fiter2" id="fiter2" data-valid="{required:false,fiter:['gif,jpg,jpeg','只允许的格式为{0}']}">
+                 <span class="file-txt">品牌商品需要提供授权证书，支持JPG、JPEG、PNG格式（图片大小不超过1M）</span>
+                <div class="valid-under" style="display:none;"><p class="estate"><span class="label"></span></p></div>
+             </li>
+              <li>
+                 <label class="hd required">宝贝白底图片：</label>
+                 <i class="for-file"></i>
+                 <input type="file" class="file" name="fiter1" id="fiter3" data-valid="{required:false,fiter:['gif,jpg,jpeg','只允许的格式为{0}']}">
+                 <span class="file-txt">食品类商品必须提供QS质检证明报告，支持JPG、JPEG、PNG格式（图片大小不超过1M）</span>
+                <div class="valid-under" style="display:none;"><p class="estate"><span class="label"></span></p></div>
+              </li>
+             <li>
+                 <label class="hd required">参与日期：</label>
+                 <input type="text" class="text" id="J_Popup" name="date">
+                 <div class="valid-under" style="display:none;"><p class="estate"><span class="label"></span></p></div>
+             </li>
+             <li>
+                 <label class="hd required">参与活动模块：</label>
+                 <select name="act">
+                     <option>111</option>
+                 </select>
+                 <div class="valid-under" style="display:none;"><p class="estate"><span class="label"></span></p></div>
+             </li>
+              <li class="form-apply-t">
+                2.填写商家联系信息
+             </li>
+             <li>
+                 <label class="hd required">联系人：</label>
+                 <input type="text" class="text" id="user">
+             </li>
+             <li>
+                 <label class="hd required">联系电话：</label>
+                 <input type="text" class="text" id="phone">
+             </li>
+             <li>
+                 <label class="hd required">联系邮箱：</label>
+                 <input class="text" type="text" id="email"/>
+             </li>
+             <li>
+                 <label class="hd"></label>
+                 <label for="tejia-laws" class="for-tejia-laws"><input type="checkbox" class="checkbox" checked="checked" id="tejia-laws"> 我已阅读<a href="#" target="_blank">《天天特价商家规则》</a>，并为违反规则的行为承担相应的责任。</label>
+             </li>
+             <li class="last">
+                 <label class="hd"></label>
+                 <button class="submit" type="submit"></button>
+             </li>
+         </ul>
+
+
+
+        </form>
+    </div>
+</body>
+</html>

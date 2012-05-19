@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="GBK">
+    <title>11</title>
+    <link href="../../base/global.css" rel="stylesheet">
+    <script src="http://a.tbcdn.cn/s/kissy/1.2.0/kissy-min.js"></script>
+</head>
+<body>
+    <div id="content" class="w950">
+        <h1>仅适用于天天特价的订阅功能</h1>
+        <ol>
+            <li>1.第一步:引入js</li>
+            <li>2.第二步：加链接，加class；</li>
+        </ol>
+        <span href="http://dingyue.taobao.com/set_subscription.htm?resource_id=31&resource_type=1&resource_name=%CC%EC%CC%EC%CC%D8%BC%DB" class="J_SubscribeRss">订阅</span>
+		<script>
+			
+		</script>
+        <script src="http://a.tbcdn.cn/tbra/1.0/tbra-aio.js"></script>
+		<script src="http://a.tbcdn.cn/apps/membersubmanager/subcenter2/js/??tbrss_v2.js,subscribe_index.js?t=201204181751.js"></script>
+		<div class="lists">
+			<span id="item"></span>
+			<div class="buy"><span class="btn">1</span></div>
+		</div>
+		<script>
+			KISSY.ready(function(S){
+			
+				var D = S.DOM,
+					$ = S.Node.all;
+				$('#item').parent('.lists').children('.buy').children('.btn').addClass('fuck').html('抢完了...');
+			})
+		</script>
+    </div>
+</body>
+</html>

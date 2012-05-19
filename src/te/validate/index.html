@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="GBK">
+    <title>validate</title>
+    <link href="../../base/global.css" rel="stylesheet">
+    <link href="validate.css" rel="stylesheet">
+    <style>
+        li{line-height:24px;clear:both;}
+    </style>
+    <script src="http://a.tbcdn.cn/s/kissy/1.2.0/kissy-min.js"></script>
+    <script src="index.js"></script>
+</head>
+<body>
+    <div id="content" class="w950">
+        <h1>自定义验证规则:</h1>
+        <ol>
+            <li>1.完全自定义规则，各种验证</li>
+            <li>2.可以定义file、checkbox的验证，自定义各种提示（需要自定义参数和方法）</li>
+        </ol>
+        <h1>使用方法:</h1>
+        <ol>
+            <li>1.引入js</li>
+            <li>2.定义要传入的对象，对象中要包含属性tip、error、empty,方法focusout，如果需要valuechange要加入方法valuechange</li>
+        </ol>
+        <form id="form" method="get">
+            <ul>
+                <li>
+                    名字：<input type="text" class="input" id="J_Name">
+                    <div class="valid-under"><p class="estate"><span class="label"></span></p></div>
+                </li>
+                <li>
+                    密码：<input type="text" class="input" id="J_Password">
+                    <div class="valid-under"><p class="estate"><span class="label"></span></p></div>
+                </li>
+                <li>
+                    邮箱：<input type="text" class="input" id="J_Email">
+                    <div class="valid-under"><p class="estate"><span class="label"></span></p></div>
+                </li>
+                <li>
+                    手机：<input type="text" class="input" id="J_Phone">
+                    <div class="valid-under"><p class="estate"><span class="label"></span></p></div>
+                </li>
+                <li>
+                    价格：<input type="text" class="input" id="J_Price">(只允许数字和小数点)
+                    <div class="valid-under"><p class="estate"><span class="label"></span></p></div>
+                </li>
+                <li>
+                    遵守：<input type="checkbox" class="input" id="J_Law">我已经阅读守则，并遵守！
+                    <div class="valid-under"><p class="estate"><span class="label"></span></p></div>
+                </li>
+                <li><button type="submit">提交</button></li>
+            </ul>
+        </form>
+    </div>
+    <script>
+        KISSY.use('validate', function(S, Validate){
+            var D = S.DOM, E = S.Event;
+             var error = function(el){
+                D.removeClass(this.p, 'tip ok');
+                D.addClass(this.p, 'error');
+                D.html(this.span, this.info.error);
+                D.attr(el, 'data-state', false);
+
+            }
+           var ok = function(el){
+                D.removeClass(this.p, 'tip error');
+                D.addClass(this.p, 'ok');
+                D.html(this.span, 'ok');
+                D.attr(el, 'data-state', true);
+            }
+            //自定义对象
+            var name = {
+                tip : '请输入名字',
+                error : '你输入的名字不符合规则',
+                empty : '名字不能为空',
+                focusout : function(el){
+                    var val = el.value;
+                    if(val.indexOf('日') !== -1){
+                        error.call(this, el);
+                    }else{
+                        ok.call(this, el);
+                    }
+                }
+            }
+            var password = {
+                tip : '密码5-10，只能包含数字、字母！',
+                error : '密码包含非法字符',
+                empty : '密码不能为空',
+                focusout : function(el){
+                    var val = el.value,
+                        reg = /^(?!(?:[^a-zA-Z]|\D|[a-zA-Z0-9])$).{8,}$/ ;
+                    if(reg.test(val)){
+                        ok.call(this, el);
+                    }else{
+                        error.call(this, el);
+                    }
+                }
+            }
+            var email = {
+                tip : '请输入你的邮箱地址',
+                error : '你输入的邮箱地址有误',
+                empty : '邮箱地址不能为空',
+                focusout : function(el){
+                    var val = el.value,
+                        reg = /^([a-zA-Z0-9]+[_|\_|\.]?)*[a-zA-Z0-9]+@([a-zA-Z0-9]+[_|\_|\.]?)*[a-zA-Z0-9]+\.[a-zA-Z]{2,3}$/;
+                    if(reg.test(val)){
+                        ok.call(this, el);
+                    }else{
+                        error.call(this, el);
+                    }
+                }
+            }
+
+            new Validate('#J_Name', name);
+            new Validate('#J_Password', password);
+            new Validate('#J_Email', email);
+        })
+        
+    </script>
+</body>
+</html>

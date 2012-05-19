@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="GBK" />
+<link href="layout.css" rel="stylesheet">
+</head>
+<body>
+<div id="header">
+	<h1 id="logo">天天特价后台管理系统</h1>	
+	<div class="top-menu">
+		<div>今天是星期三，2012年5月2日</div>
+		<div class="login-info">
+			<span>Welcome,XXX.</span>
+			<a href="#">退出</a>
+		</div>
+	</div>
+</div>
+<div id="page">
+	
+	<div id="nav">
+		<ul class="left">
+			<li class="home">
+				<a href="index.html">首页</a>
+			</li>			
+			<li>
+				<a href="manualAuditFirst.html">商品搜索</a>				
+			</li>
+			<li>
+				<a href="biImport.html">人工干预</a>
+			</li> 
+			<li>
+				<a href="addPromotion.html">添加促销活动</a>
+			</li>
+			<li class="cur">
+				<a href="managePromotion.html">管理促销活动</a>
+			</li> 
+			<li>
+				<a href="tms.html">TMS区块</a>
+			</li> 
+		</ul>
+				
+	</div>
+	<div id="content">
+		<div id="datePickDiv">
+			<h4 class="title">按日期搜索活动：</h4>
+			<form method="get" action="http://admin.tejia.daily.taobao.net/manage_promotion.htm" name="filterPageForm" id="filterPageForm">
+				<label for="promotionTime">选择日期:</label>
+				<input type="text" class="input" value="" name="promotionTime" id="promotionTime">
+				<button id="searchButton" class="submit" role="button" aria-disabled="false">查询</button>
+				<input type="hidden" maxlengh="4" minvalue="1" id="pageNO" name="pageNO">
+			</form>
+		</div>
+		<div class="updateSortFormCon">
+			<form id="updateSortForm" name="updateSortForm"  action="http://admin.tejia.daily.taobao.net/manage_promotion.htm" method="post">
+			<input name='_tb_token_' type='hidden' value='1ST24Y2l'>
+    		<input type="hidden" name="method" value="updatePromotionSort"/>
+			<input type="hidden" name="promotionTime" value="">
+			<h4 class="title">促销活动列表</h4>
+    		<table class="manual-table" style="margin: 10px;height: auto;padding: 10px;">
+    			<tdoby>
+    				<tr>
+        				<th align="center" style="width:80px;">活动名称</th>
+        				<th align="center" style="width:100px;">活动类型</th>
+        				<th align="center" style="width:100px;">活动时间</th>
+        				<th align="center" style="width:100px;">报名时间</th>
+        				<th align="center" style="width:100px;">报名截至时间</th>
+        				<th align="center" style="width:100px;">创建者</th>
+        				<th align="center" style="width:60px;">状态</th>
+        				<th align="center" style="width:60px;">排序</th>
+        				<th align="center" style="width:80px;">操作</th>
+    				</tr>
+    				                		        					<tr>
+                        		<td align="center" style="width:80px;">时尚女装</td>
+                        		<td align="center" style="width:100px;">类目活动</td>
+                        		<td align="center" style="width:100px;"></td>
+        						<td align="center" style="width:100px;"></td>
+        						<td align="center" style="width:100px;"></td>
+        						<td align="center" style="width:100px;">寒玄</td>
+        						<td align="center" style="width:60px;">有效</td>
+        						<td align="center" style="width:60px;"><input name="id_sort_1" type="text" value="1" style="width:25px;"/></td>
+        						<td align="center" style="width:80px;"><a href="http://admin.tejia.daily.taobao.net/edit_promotion.htm?promotion_id=1">修改</a></a></td>
+                        	</tr>
+        				        					<tr>
+                        		<td align="center" style="width:80px;">流行男装</td>
+                        		<td align="center" style="width:100px;">类目活动</td>
+                        		<td align="center" style="width:100px;">2012-03-22</td>
+        						<td align="center" style="width:100px;"></td>
+        						<td align="center" style="width:100px;"></td>
+        						<td align="center" style="width:100px;">寒玄</td>
+        						<td align="center" style="width:60px;">有效</td>
+        						<td align="center" style="width:60px;"><input name="id_sort_2" type="text" value="2" style="width:25px;"/></td>
+        						<td align="center" style="width:80px;"><a href="http://admin.tejia.daily.taobao.net/edit_promotion.htm?promotion_id=2">修改</a></a></td>
+                        	</tr>
+        				        					<tr>
+                        		<td align="center" style="width:80px;">男鞋女鞋</td>
+                        		<td align="center" style="width:100px;">类目活动</td>
+                        		<td align="center" style="width:100px;"></td>
+        						<td align="center" style="width:100px;"></td>
+        						<td align="center" style="width:100px;"></td>
+        						<td align="center" style="width:100px;">寒玄</td>
+        						<td align="center" style="width:60px;">有效</td>
+        						<td align="center" style="width:60px;"><input name="id_sort_3" type="text" value="3" style="width:25px;"/></td>
+        						<td align="center" style="width:80px;"><a href="http://admin.tejia.daily.taobao.net/edit_promotion.htm?promotion_id=3">修改</a></a></td>
+                        	</tr>
+        				        					<tr>
+                        		<td align="center" style="width:80px;">包包配饰</td>
+                        		<td align="center" style="width:100px;">类目活动</td>
+                        		<td align="center" style="width:100px;"></td>
+        						<td align="center" style="width:100px;"></td>
+        						<td align="center" style="width:100px;"></td>
+        						<td align="center" style="width:100px;">寒玄</td>
+        						<td align="center" style="width:60px;">有效</td>
+        						<td align="center" style="width:60px;"><input name="id_sort_4" type="text" value="4" style="width:25px;"/></td>
+        						<td align="center" style="width:80px;"><a href="http://admin.tejia.daily.taobao.net/edit_promotion.htm?promotion_id=4">修改</a></a></td>
+                        	</tr>
+        				        					<tr>
+                        		<td align="center" style="width:80px;">美容美发</td>
+                        		<td align="center" style="width:100px;">类目活动</td>
+                        		<td align="center" style="width:100px;">2012-04-05</td>
+        						<td align="center" style="width:100px;"></td>
+        						<td align="center" style="width:100px;"></td>
+        						<td align="center" style="width:100px;">寒玄</td>
+        						<td align="center" style="width:60px;">有效</td>
+        						<td align="center" style="width:60px;"><input name="id_sort_5" type="text" value="5" style="width:25px;"/></td>
+        						<td align="center" style="width:80px;"><a href="http://admin.tejia.daily.taobao.net/edit_promotion.htm?promotion_id=5">修改</a></a></td>
+                        	</tr>
+        				        					<tr>
+                        		<td align="center" style="width:80px;">家居生活</td>
+                        		<td align="center" style="width:100px;">类目活动</td>
+                        		<td align="center" style="width:100px;"></td>
+        						<td align="center" style="width:100px;"></td>
+        						<td align="center" style="width:100px;"></td>
+        						<td align="center" style="width:100px;">tttjdp001</td>
+        						<td align="center" style="width:60px;">有效</td>
+        						<td align="center" style="width:60px;"><input name="id_sort_6" type="text" value="6" style="width:25px;"/></td>
+        						<td align="center" style="width:80px;"><a href="http://admin.tejia.daily.taobao.net/edit_promotion.htm?promotion_id=6">修改</a></a></td>
+                        	</tr>
+        				        					<tr>
+                        		<td align="center" style="width:80px;">母婴用品</td>
+                        		<td align="center" style="width:100px;">类目活动</td>
+                        		<td align="center" style="width:100px;"></td>
+        						<td align="center" style="width:100px;"></td>
+        						<td align="center" style="width:100px;"></td>
+        						<td align="center" style="width:100px;">xuanruotestc03</td>
+        						<td align="center" style="width:60px;">有效</td>
+        						<td align="center" style="width:60px;"><input name="id_sort_7" type="text" value="7" style="width:25px;"/></td>
+        						<td align="center" style="width:80px;"><a href="http://admin.tejia.daily.taobao.net/edit_promotion.htm?promotion_id=7">修改</a></a></td>
+                        	</tr>
+        				        					<tr>
+                        		<td align="center" style="width:80px;">美食特产</td>
+                        		<td align="center" style="width:100px;">类目活动</td>
+                        		<td align="center" style="width:100px;"></td>
+        						<td align="center" style="width:100px;"></td>
+        						<td align="center" style="width:100px;"></td>
+        						<td align="center" style="width:100px;">tttjdp001</td>
+        						<td align="center" style="width:60px;">有效</td>
+        						<td align="center" style="width:60px;"><input name="id_sort_8" type="text" value="8" style="width:25px;"/></td>
+        						<td align="center" style="width:80px;"><a href="http://admin.tejia.daily.taobao.net/edit_promotion.htm?promotion_id=8">修改</a></a></td>
+                        	</tr>
+        				        					<tr>
+                        		<td align="center" style="width:80px;">五一特惠</td>
+                        		<td align="center" style="width:100px;">专题活动</td>
+                        		<td align="center" style="width:100px;"></td>
+        						<td align="center" style="width:100px;"></td>
+        						<td align="center" style="width:100px;"></td>
+        						<td align="center" style="width:100px;">寒玄</td>
+        						<td align="center" style="width:60px;">有效</td>
+        						<td align="center" style="width:60px;"><input name="id_sort_68" type="text" value="1" style="width:25px;"/></td>
+        						<td align="center" style="width:80px;"><a href="http://admin.tejia.daily.taobao.net/edit_promotion.htm?promotion_id=68">修改</a></a></td>
+                        	</tr>
+        				        					<tr>
+                        		<td align="center" style="width:80px;">超值推荐</td>
+                        		<td align="center" style="width:100px;">专题活动</td>
+                        		<td align="center" style="width:100px;"></td>
+        						<td align="center" style="width:100px;"></td>
+        						<td align="center" style="width:100px;"></td>
+        						<td align="center" style="width:100px;">寒玄</td>
+        						<td align="center" style="width:60px;">有效</td>
+        						<td align="center" style="width:60px;"><input name="id_sort_70" type="text" value="0" style="width:25px;"/></td>
+        						<td align="center" style="width:80px;"><a href="http://admin.tejia.daily.taobao.net/edit_promotion.htm?promotion_id=70">修改</a></a></td>
+                        	</tr>
+        				        			                </tdoby>
+    		</table>
+		</form>
+		</div>	
+	</div>
+</div>
+</body>
+</html>

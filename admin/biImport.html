@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="GBK" />
+<link href="layout.css" rel="stylesheet">
+</head>
+<body>
+<div id="header">
+	<h1 id="logo"><img src="logo.png"></h1>	
+	<div class="top-menu">
+		<div>今天是星期三，2012年5月2日</div>
+		<div class="login-info">
+			<span>Welcome,XXX.</span>
+			<a href="#">退出</a>
+		</div>
+	</div>
+</div>
+<div id="page">
+	
+	<div id="nav">
+		<ul class="left">
+			<li class="home">
+				<a href="index.html">首页</a>
+			</li>			
+			<li>
+				<a href="manualAuditFirst.html">商品搜索</a>				
+			</li>
+			<li class="cur">
+				<a href="biImport.html">人工干预</a>
+			</li> 
+			<li>
+				<a href="addPromotion.html">添加促销活动</a>
+			</li>
+			<li>
+				<a href="managePromotion.html">管理促销活动</a>
+			</li> 
+			<li>
+				<a href="tms.html">TMS区块</a>
+			</li> 
+		</ul>
+				
+	</div>
+	<div id="content" class="border">
+		<form id="biExport" method="POST" name="biExport" action="BIExport.do">
+			<input name='_tb_token_' type='hidden' value='e33d5938f80de'>
+			<span class="left-holder"></span>
+			<button type="submit" class="btn">导出数据</button>
+		</form>
+
+		<form id="biImport" method="POST" name="biImport" enctype="multipart/form-data">
+			<span class="left-holder">
+				<input name='_tb_token_' type='hidden' value='e33d5938f80de'>
+				<input type="hidden" name="action" value="biDataImportAction"/>
+				<input type="hidden" name="event_submit_do_import" value="1"/>
+				<input type="file" name="_fm.b._0.b" class="" value="" />
+			</span>
+			<button type="submit" class="btn btn-warning">导入数据</button>
+		</form>	
+
+		<form id="sort" method="POST" name="sort">
+			<span class="left-holder">
+				<input name='_tb_token_' type='hidden' value='e33d5938f80de'>
+				<input type="hidden" name="action" value="SortAction"/>
+				<input type="hidden" name="event_submit_do_sort" value="1"/>
+				<input type="text" class="btn-input" name="_fm.so._0.d" value="" />
+			</span>
+			<button type="submit" class="btn btn-inverse">开始排序</button>
+		</form>
+
+		<form id="save" method="POST" name="save">
+			<span class="left-holder">
+				<input name='_tb_token_' type='hidden' value='e33d5938f80de'>
+				<input type="hidden" name="action" value="SaveAction"/>
+				<input type="hidden" name="event_submit_do_save" value="1"/>
+				<input type="text" class="btn-input" name="_fm.sa._0.d" value="" />
+			</span>
+			<button type="submit" class="btn btn-success">保存排期</button>
+		</form>
+	
+		<form id="updateOnlineItemForm" method="POST" name="updateOnlineItemForm">
+			<span class="left-holder">
+				<input name='_tb_token_' type='hidden' value='e33d5938f80de'>
+				<input type="hidden" name="action" value="SaveAction"/>
+				<input type="hidden" name="event_submit_do_correct" value="1"/>
+				<label for="itemRawId">审核商品id：</label>
+				<input id="itemRawId" type="text" class="btn-input delbtn-input" name="_fm.u._0.i" value="" />
+			</span>
+			<button type="submit" class="btn btn-danger">删除商品</button>
+		</form>
+
+	</div>
+</div>
+</body>
+</html>

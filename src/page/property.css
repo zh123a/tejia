@@ -1,0 +1,243 @@
+#content{
+    width:1006px;
+    margin: 20px auto;
+
+}
+.te-property,.anli-title h4,.flow,.license-title h4,.license-pro i,.license-shop i,.contact-list,.question-title h4,.contactus-title h4,.contactus-list{
+    background-image:url(http://img04.taobaocdn.com/tps/i4/T10l5FXedxXXaz1PUI-1006-817.png);
+    background-repeat:no-repeat;
+}
+.te-property{
+    background-position:0 0;
+    position:relative;
+    width:992px;
+    height:485px;
+    margin-bottom:30px;
+}
+.te-property-link{
+    position:absolute;
+    display:block;
+    width:167px;
+    height:50px;
+    top:408px;
+    left:319px;
+}
+.te-property-rule{
+    position:absolute;
+    width:85px;
+    height:24px;
+    display:block;
+    cursor:pointer;
+    top:420px;
+    left:60px;
+}
+.te-property-forum{
+    position:absolute;
+    width:85px;
+    height:24px;
+    display:block;
+    cursor:pointer;
+    top:420px;
+    left:187px;
+}
+.te-property-train{
+     position:absolute;
+    width:85px;
+    height:24px;
+    display:block;
+    cursor:pointer;
+    top:420px;
+    left:716px;
+}
+.te-property-video{
+     position:absolute;
+    width:85px;
+    height:24px;
+    display:block;
+    cursor:pointer;
+    top:420px;
+    left:845px;
+}
+.te-property-seller{
+    position:absolute;
+    display:block;
+    width:167px;
+    height:50px;
+    top:408px;
+    left:517px;
+}
+.anli-title{
+    height:48px;
+    border-top: 1px solid #dedede;
+}
+.anli-title h4{
+    background-position:0 -493px;
+    width:74px;
+    height:18px;
+    float:left;
+    margin-top:11px;
+}.anli-title a{
+    float:right;
+    color:#ff6600;
+    margin-top:11px;
+}
+.anli-bd{
+    height:159px;
+    clear:both;
+}
+.anli-list{
+    float:left;
+    width:340px;
+}
+.anli-list-last{
+    width:320px;
+}
+.anli-img{
+    float:left;
+    width:129px;
+    height:120px;
+}
+.anli-img img{
+    width:120px;
+    height:120px;
+}
+.anli-list-d{
+    float:left;
+    width:168px;
+    line-height:20px;
+}
+.anli-list-d h4 a{
+    font-size:14px;
+    color:#4d4d4d;
+}
+.anli-list-d p{
+    color:#808080;
+}
+.anli-list-d p a{
+    color:#ff6600;
+    
+}
+.flow{
+    height:174px;
+    background-position: 0 -544px;
+    clear:both;
+}
+.license-title{
+    height:56px;
+    border-top: 1px solid #dedede;
+}
+.license-title h4{
+    width:75px;
+    height:18px;
+    background-position:-107px -493px;
+    margin-top:10px;
+}
+.license-shop{
+    float:left;
+    width:464px;
+    position:relative;
+    padding-left:91px;
+    _display:inline;
+}
+.license-pro{
+    float:left;
+    width:344px;
+    padding-left:88px;
+    position:relative;
+    _display:inline;
+}
+.license-shop i{
+    display:block;
+    position:absolute;
+    width:60px;
+    height:67px;
+    background-position:0 -743px;
+    top:67px;
+    left:0;
+}
+.license-pro i{
+    display:block;
+    position:absolute;
+    width:62px;
+    height:65px;
+    background-position:-107px -743px;
+    top:67px;
+    left:0;
+}
+.license-shop dt{
+    color:#3e3e3e;
+    font-size:14px;
+    padding: 6px 0;
+}
+.license-shop dd{
+    color:#808080;
+    line-height:24px;
+}
+.license-pro li{
+    color:#808080;
+    line-height:26px;
+}
+.license-list-d{
+    width:344px;
+}
+.license-bd{
+    height:365px;
+}
+.question{
+    clear:both;
+}
+.question-title{
+    height:40px;
+    border-top: 1px solid #dedede;
+}
+.question-title h4{
+    width:75px;
+    height:18px;
+    background-position: -208px -493px;
+    margin-top:10px;
+    float:left;
+}
+.question-title a{
+    float:right;
+    margin-top:5px;
+    color:#ff6600;
+}
+.question dt{
+    color:#4c4c4c;
+    font-size:14px;
+    line-height:30px;
+    height:30px;
+}
+.question dd{
+    line-height:20px;
+    color:#808080;
+    padding-left:24px;
+    margin-bottom:15px;
+}
+.contactus{
+    clear:both;
+}
+.contactus-title{
+    height:36px;
+    border-top:1px solid #dedede;
+}
+.contactus-title h4{
+    margin-top:10px;
+    width:75px;
+    height:18px;
+    background-position: -308px -493px;
+}
+.contact-list{
+    padding-left:23px;
+    background-position:-208px -735px;
+    height:90px;
+    line-height:30px;
+}
+.contact-list li{
+    height:30px;
+}
+.contact-list p span{
+    display:inline-block;
+    width:86px;
+    text-align:right;
+}

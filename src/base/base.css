@@ -1,0 +1,206 @@
+#site-nav-bd {
+    width: 990px;
+}
+/*clearfix*/
+.clearfix {
+    zoom: 1;
+}
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: block;
+    height: 0;
+}
+
+#content {
+    
+}
+#content:after {
+    content: '\0020';
+    display: block;
+    height: 0;
+    clear: both;
+}
+/*分页start*/
+.page-prev,.page-next{
+    background-image:url(http://img03.taobaocdn.com/tps/i3/T1IAqDXiNSXXaiRLHE-791-450.png);
+    background-repeat:no-repeat;
+}
+.page{
+    height:27px;
+    text-align: center;
+    clear:both;
+    padding: 37px 0;
+}
+
+.page a,.page span{
+    display: inline-block;
+    min-width: 16px;
+    _width: 16px;
+    height: 24px;
+    margin: 0;
+    margin-right: 3px	9;
+    padding: 0 5px;
+    text-align: center;
+    vertical-align: top;
+    line-height: 24px;
+    white-space: nowrap;
+    font-family: Tahoma,SimSun,Arial;
+    border: 1px solid #e6e8ec;
+    color:#aaaaaa;
+}
+.page a:hover{
+    border: 1px solid #ff6600;
+    color:#ff6600;
+    text-decoration: none;
+}
+.page .page-prev{
+    padding-left:14px;
+
+}
+.page span.page-prev{
+    background-position:-676px -392px;
+}
+.page a.page-prev{
+    background-position:-676px -432px;
+}
+.page .page-next{
+    padding-right:14px;
+
+}
+.page span.page-next{
+     background-position: -740px -392px;
+}
+.page a.page-next{
+     background-position: -740px -432px;
+}
+.page .page-cur {
+    border: 0;
+    color: #FD6D01;
+    padding: 0 5px;
+    display:inline-block;
+    height:26px;
+    line-height:26px;
+   
+
+}
+/*分页end*/
+/**
+ *helper start
+ */
+.helper-con{
+    padding-top:25px;
+    padding-bottom:25px;
+}
+.helper{
+    clear:both;
+    border: 1px solid #e4e4e4;
+    background-color: #fff;
+    width:988px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.helper-title{
+    height:47px;
+    border-bottom: 2px solid #f3f3f3;
+    padding-top:14px;
+}
+.helper-tl{
+    
+    height:33px;
+    margin-left:78px;
+}
+.helper-tl h4{
+    line-height:18px;
+    font-size:14px;
+}
+/*helper改为文字，不用图片 start*/
+.helper-cheap{
+    float:left;
+    _display:inline;
+   padding-left:51px;
+    width:273px;
+    position:relative;
+}
+.helper-cheap i{
+    position:absolute;
+    background-position:-200px -299px;
+    display:block;
+    width:36px;
+    height:28px;
+    top:0;
+    left:0;
+}
+.helper-promise{
+    float:left;
+    _display:inline;
+    position:relative;
+    padding-left:44px;
+    width:305px;
+
+}
+.helper-promise i{
+    position:absolute;
+    display:block;
+    background-position:-200px -351px;
+    width:28px;
+    height:30px;
+     top:0;
+    left:0;
+}
+.helper-chao{
+    position:relative;
+    _display:inline;
+    width:140px;
+    padding-left:48px;
+    float:left;
+}
+.helper-chao i{
+    position:absolute;
+    background-position:-200px -399px;
+    display:block;
+    width:32px;
+    height:30px;
+     top:0;
+    left:0;
+}
+/*helper改为文字，不用图片 end*/
+.helper-cheap i,.helper-promise i,.helper-chao i{
+	background-image:url(http://img03.taobaocdn.com/tps/i3/T1IAqDXiNSXXaiRLHE-791-450.png);
+    background-repeat: no-repeat;
+}
+.helper-bd{
+    height:137px;
+}
+.helper dl{
+    margin-top:20px;
+    width:196px;
+    height:103px;
+    border-right: 1px dotted #dddddd;
+    float:left;
+    color:#666;
+}
+.helper dl dt{
+    margin-left:53px;
+    width:130px;
+    height:20px;
+    margin-bottom:6px;
+    font-size:16px;
+    font-weight:bolder;
+    line-height:20px;
+    color:#404040;
+}
+.helper dl dd{
+    margin-left:53px;
+    width:130px;
+}
+.helper .helper-email{
+    border: none;
+}
+.helper dd a{
+    color:#666;
+}
+
+/**
+ *helper end
+ */

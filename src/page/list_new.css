@@ -1,0 +1,314 @@
+body{
+    background-color: #f6f6f6;
+}
+#content{
+    width:990px;
+    position:relative;
+}
+.pro-hot,.pro-cheap,.btn,.pro-price strong,#J_Totop{
+    background-image:url(http://duanmingming/workspace/order/src/assets/icon_v2.png);
+    background-repeat:no-repeat;
+}
+.list-nav{
+    height:78px;
+    margin-top:14px;
+    margin-bottom:15px;
+    background-position:0 -420px;
+}
+.list-nav a{
+    float:left;
+    width:110px;
+    height:69px;
+    background-image: url(http://img01.taobaocdn.com/tps/i1/T1OdLXXXhrXXbcGOrh-990-158.png);
+    background-repeat:no-repeat;
+}
+.list-nav a.nav-ladies{
+    background-position:0px 0;
+    height:69px;
+}
+.list-nav a.nav-men{
+    background-position:-110px 0;
+    height:69px;
+}
+.list-nav a.nav-shoes{
+    background-position:-220px 0;
+    height:69px;
+}
+.list-nav a.nav-bags{
+    background-position:-330px 0;
+    height:69px;
+}
+.list-nav a.nav-beauty{
+    background-position:-440px 0;
+    height:69px;
+}
+.list-nav a.nav-home{
+    background-position:-550px 0;
+    height:69px;
+}
+.list-nav a.nav-baby{
+    background-position:-660px 0;
+    height:69px;
+}
+.list-nav a.nav-food{
+    background-position:-770px 0;
+    height:69px;
+}
+.list-nav a.nav-digit{
+    background-position:-880px 0;
+    height:69px;
+}
+.list-nav a.nav-ladies-cur{
+    background-position:0 -80px;
+    height:78px;
+}
+.list-nav a.nav-men-cur{
+    background-position:-110px -80px;
+    height:78px;
+}
+.list-nav a.nav-shoes-cur{
+    background-position:-220px -80px;
+    height:78px;
+}
+.list-nav a.nav-bags-cur{
+    background-position:-330px -80px;
+    height:78px;
+}
+.list-nav a.nav-beauty-cur{
+    background-position:-440px -80px;
+    height:78px;
+}
+.list-nav a.nav-home-cur{
+    background-position:-550px -80px;
+    height:78px;
+}
+.list-nav a.nav-baby-cur{
+    background-position:-660px -80px;
+    height:78px;
+}
+.list-nav a.nav-food-cur{
+    background-position:-770px -80px;
+    height:78px;
+}
+.list-nav a.nav-digit-cur{
+    background-position:-880px -80px;
+    height:78px;
+}
+.list-con{
+    float:left;
+    border: 1px solid #e0e2e7;
+    border-top: 2px solid #e0e2e7;
+    width:988px;
+   background-color: #fff;
+}
+.lists{
+    float:left;
+    width:179px;
+    padding: 27px 0px 20px 19px;
+    _display:inline;
+    border-bottom: 1px solid #dee1e7;
+    overflow: hidden;
+    background-color: #fff;
+}
+.items{
+    width:160px;
+    padding-right:18px;
+    border-right:1px solid #eff0f3;
+    height:251px;
+    text-align:center;
+    position:relative;
+    
+}
+.lists-special{
+    width:177px;
+    
+}
+.lists{
+    float:left;
+    width:160px;
+    border-right: 1px solid #eff0f3;
+    height:277px;
+    _display:inline;
+    padding:0 18px 0 19px;
+    position:relative;
+}
+.section .lists{
+    padding-top:34px;
+    height:244px;
+    padding-bottom:34px;
+    border-right: 1px solid #eff0f3;
+}
+.list li.last{
+    border-right: none;
+}
+
+.pro-img{
+
+    display:block;
+    width:160px;
+    height:160px;
+    cursor:pointer;
+    position:relative;
+}
+.pro-img span{
+    background-color:#df4e4e;
+    text-align:center;
+    display:block;
+    color:#fff;
+    height:15px;
+    line-height:15px;
+    position:absolute;
+    bottom:0;
+    left:0;
+    width:100%;
+}
+.lists .pro-img:hover{
+    text-decoration: none;
+}
+.tuan-bd .pro-img{
+    width: 170px;
+    height:170px;
+    display:block;
+    overflow:hidden;
+}
+.pro-name{
+   height:24px;
+   padding-top:10px;
+   line-height:24px;
+}
+.pro-name a{
+    color:#4d4d4d;
+}
+.pro-hot{
+    position:absolute;
+    top:0;
+    right:0;
+    display:block;
+    width:29px;
+    height:19px;
+    background-position:-270px -299px;
+}
+.pro-cheap{
+    position:absolute;
+    top:10px;
+    right:9px;
+    display:block;
+    width:29px;
+    height:19px;
+    background-position:-270px -351px;
+}
+.section .pro-hot,.section .pro-cheap{
+    top:34px;
+    right:18px;
+}
+
+.pro-primary{
+    height:22px;
+    line-height:22px;
+    color:#808080;
+}
+.list-buy .pro-primary{
+    float:left;
+}
+.pro-primary em{
+    text-decoration: line-through;
+}
+.pro-price{
+    height:22px;
+    line-height:22px;
+    color:#aaaaaa;
+}
+.buy .pro-price{
+    float:left;
+}
+.pro-price strong{
+    padding-left:10px;
+    background-position: -270px -390px;
+    color:#d10303;
+    font-family: tahoma;
+    font-size:18px;
+    font-weight: normal;
+    margin-right:3px;
+}
+.bgcolor{
+    background-color:#f9f9f9;
+}
+.buy{
+    text-align: center;
+    height:24px;
+
+    text-align:center;
+    line-height:24px;
+    clear:both;
+}
+.salescount{
+    color:#aaaaaa;
+    float:right;
+    height:22px;
+    line-height:22px;
+}
+.buy .salescount{
+    float:left;
+
+}
+.buy .btn{
+    position:relative;
+    top:-4px;
+}
+#main{
+    padding-bottom:25px;
+}
+.btn{
+    float:right;
+    width:64px;
+    height:22px;
+    apadding: 5px 0;
+    line-height:22px;
+    *line-height:24px;
+    _line-height:22px;
+    text-align:center;
+    color:#fff;
+    font-size:12px;
+    font-weight:normal;
+}
+.buybtn{
+    background-position:-450px -310px;
+}
+.willbuy{
+    background-position:-450px -351px;
+}
+.sellout{
+    background-position: -450px -399px;
+
+}
+
+#J_Totop{
+    
+    position: fixed;
+    left: 50%;
+    bottom: 129px;
+    margin-left: 510px;
+    width: 32px;
+    height:32px;
+    _position: absolute;
+    line-height: 32px;
+    display: none;
+    text-align: center;
+    background-position:-401px -351px;
+    
+}
+.no-border{
+    border-bottom: none;
+}
+
+.soldout{
+    background:url(http://img02.taobaocdn.com/tps/i2/T1kra9XoJfXXXXXXXX-126-90.png) no-repeat 0 0;
+    /*_background:none; _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://taobao-473cda2c/workspace/order/src/assets/soldout1.png" ,sizingMethod="crop");*/
+    _background:url(http://img01.taobaocdn.com/tps/i1/T1KHq9XXXgXXXXXXXX-126-90.gif) no-repeat 0 0;
+    position: absolute;
+    width:126px;
+    height:90px;
+    top:45px;
+    left:18px;
+    display:block;
+}

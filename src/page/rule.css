@@ -1,0 +1,91 @@
+#content{
+    width:990px;
+    margin: 0 auto;
+}
+.rule-outer{
+    height:1362px;
+    position:relative;
+    width:976px;
+    margin-left:9px;
+    margin-top:32px;
+    border: 1px solid #d2d2d2;
+    background-color:#f2f2f2;
+}
+.rule-mid{
+    position:absolute;
+    width:976px;
+    height:1362px;
+    left:-3px;
+    top:-5px;
+    border: 1px solid #d2d2d2;
+    background-color:#f2f2f2;
+}
+.rule-inner{
+    position:absolute;
+    width:802px;
+    padding: 50px 94px 0 80px;
+    height:1312px;
+    left:-3px;
+    top:-5px;
+    border: 1px solid #d2d2d2;
+    background-color:#fcfcfc;
+}
+.rule-title{
+    width:245px;
+    height:29PX;
+    margin-left:279px;
+    background: url(http://taobao-473cda2c/workspace/order/src/assets/rule-title.png);
+    margin-bottom:30px;
+}
+.rule-con dt{
+    padding-left:5px;
+    height:30px;
+    line-height:30px;
+    padding-bottom:6px;
+    color:#696969;
+    font-size:14px;
+    font-weight:bold;
+    margin-top:25px;
+}
+.rule-con dd{
+    line-height:30px;
+    line-height:30px;
+    color:#696969;
+    padding-left:70px;
+}
+.rule-con dd a{
+    color:#eb7302;
+    text-decoration: underline;
+}
+.form{
+    margin-top:20px;
+}
+.form fieldset{
+    width:720px;
+    padding: 10px 0  10px 76px;
+    border: 1px solid #d5d5d5;
+    border-top: 3px solid #f38c38;
+    color:#696969;
+    font-size:14px;
+    font-weight:bold;
+   
+}
+.form h4, .form p{
+    height:18px;
+    padding: 5px 0;
+}
+.form p a{
+    text-decoration: underline;
+    color:#ff6600;
+}
+.submit{
+    width:184px;
+    height:52px;
+    border: 0;
+    cursor:pointer;
+    background: url(http://img02.taobaocdn.com/tps/i2/T1VTa5XdXlXXXXXXXX-433-52.png) no-repeat 0 0;
+    display:block;
+    margin-left:286px;
+    margin-top:50px;
+    
+}

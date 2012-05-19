@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="GBK">
+    <title>滚动条</title>
+    <link href="../../base/global.css" rel="stylesheet">
+    <style>
+        #content{height:2000px;background-color:#f6f6f6;position:relative;}
+        #floor1{height:500px;background-color:red;}
+        #floor2{height:800px;background-color:green;}
+        #floor3{height:600px;background-color:#90ee90;}
+
+        #floor-bar{
+            position: fixed!important;
+            z-index: 200;
+            width: 1015px;
+            height: 0;
+            margin: 0;
+            top: 101px;
+           _position: absolute;
+        }
+        #floor-bar ol{
+            position: absolute;
+            top: 0;
+            right: -50px;
+            width: 50px;
+            border: 1px solid #ccc;
+            height:200px;
+        }
+        #floor-bar li{
+            border-bottom: 1px solid #ccc;
+        }
+        .W_gotop {
+            background-color: #add8e6;
+            background: white\9;
+            border: 1px solid white;
+            filter: alpha(opacity=60);
+            color:#096BA2;
+            line-height: 14px;
+            text-align: center;
+            font-family: Arial;
+            position: fixed;
+            left: 50%;
+            bottom: 100px;
+            margin-left: 476px;
+            width: 20px;
+            _position: absolute;
+            line-height: 14px;
+            -moz-border-radius: 3px;
+            -webkit-border-radius: 3px;
+            padding: 5px 3px 0;
+            display: block;
+            text-align: center;
+        }
+
+    </style>
+    <script src="http://a.tbcdn.cn/s/kissy/1.2.0/kissy-min.js"></script>
+</head>
+<body>
+    <div id="content" class="w950">
+        <div id="floor1">
+            <h1>1F</h1>
+        </div>
+        <div id="floor2">
+            <h1>2F</h1>
+        </div>
+         <div id="floor3">
+            <h1>3F</h1>
+        </div>
+        <div id="floor-bar">
+            <ol>
+                <li><a href="#floor1" target="_self">1F</a></li>
+                <li><a href="#floor2" target="_self">2F</a></li>
+                <li><a href="#floor3" target="_self">3F</a></li>
+            </ol>
+        </div>
+        <a href="javascript:scrollTo(0,0);" id="toTop" class="W_gotop" style="visibility: visible; ">
+<span>返回顶部</span>
+</a>
+    </div>
+    <script>
+        KISSY.ready(function(S){
+            var D = S.DOM,
+                E = S.Event;
+            function fixIE6(el, top){
+                if(S.UA.ie !=6 || !D.get(el)) return;
+                var obj = D.get(el);
+                D.css(obj, 'top', top + 'px');
+                E.on(window, 'scroll resize', function(ev) {
+                   D.css(obj, 'top', (top+D.scrollTop())+'px');
+               });
+            }
+            fixIE6('#floor-bar', 101);
+
+            function toTop(id,bottom){
+                if (S.UA.ie != 6){
+                    E.on(window, 'scroll resize', function(){
+                        var scrollTop = D.scrollTop();
+                        if(scrollTop > 10){
+                            D.css(id, 'display', 'block');
+                        }else{
+                            D.css(id, 'display', 'none');
+                        }
+                    });
+                    return;
+                }
+                var el = D.get(id),
+                    conHeight = D.height('#content'),
+                    winHeight = D.viewportHeight(),
+                    offset = D.offset('#content'),
+                    offsetH = offset.top,
+                    top = winHeight - offsetH -bottom,
+                    start = conHeight - top;
+                    
+                D.css(el, 'bottom', start);
+                E.on(window, 'scroll resize', function(){
+                    var scrollTop = D.scrollTop();
+                    if(scrollTop > 10){
+                        D.css(el, 'display', 'block');
+                        var t = start - D.scrollTop();
+                        t = t > 0 ? t : 0;
+                        D.css(el, 'bottom', t + 'px');
+                    }else{
+                        D.css(el, 'display', 'none');
+                    }
+                })
+            }
+            toTop('#toTop',100);
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,95 @@
+#content{
+    width:950px;
+    margin: 0 auto;
+}
+#cal-con{
+    width:950px;
+    padding:  50px 0;
+    float:left;
+
+}
+.cal-hd,.cal-prev,.cal-next{
+    background-image:url(http://duanmingming/workspace/order/src/assets/rili.png);
+    background-repeat:no-repeat;
+}
+.cal-hd{
+    background-position:0 0;
+    height:50px;
+    width:950px;
+    position:relative;
+}
+.cal-prev{
+    width:72px;
+    height:28px;
+    background-position: -955px 0;
+    position:absolute;
+    top:11px;
+    left:305px;
+    cursor:pointer;
+}
+.cal-next{
+    width:72px;
+    height:28px;
+    background-position:-1029px 0;
+    position:absolute;
+    top:11px;
+    left:584px;
+    cursor:pointer;
+}
+.cal-hd h4{
+   width:950px;
+   height:50px;
+   line-height:50px;
+   font-size:20px;
+   font-weight:bold;
+    text-align:center;
+}
+.cal-bd{
+    float:left;
+}
+.cal-whd{
+    height:38px;
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+}
+.cal-whd span{
+    float:left;
+    width:135px;
+    height:38px;
+    line-height:38px;
+    text-align:center;
+    font-weight:bold;
+    font-size:16px;
+    color:#4d4d4d;
+    background-color:#dfceaf;
+    border-right: 1px solid #ddd;
+}
+.cal-whd .cal-whd-last{
+    width:134px;
+    border-right: 0;
+}
+
+.cal-items{
+    float:left;
+    width:135px;
+    border-bottom:1px solid #c2c2c2;
+    border-right:1px solid #c2c2c2;
+    height:70px;
+    text-align:center;
+}
+.cal-items-last{
+    width:134px;
+    border-right: none;
+}
+.cal-items h4{
+    margin-top:4px;
+    height:22px;
+    font: bold 14px/22px arial;
+    color:#4d4d4d;
+}
+.cal-link{
+    font-size:14px;
+}
+.cal-link a{
+    color:#ff6600;
+}

@@ -6,7 +6,7 @@
 
     <property name="root.dir" location="${current.dir}"/>
 	<property name="cdn.dir" location="${root.dir}/../../vhosts/a.tbcdn.cn/"/>
-    <property name="deploy.dir" location="${cdn.dir}/apps/order/"/>
+    <property name="deploy.dir" location="${cdn.dir}/apps/tejia/"/>
     <property name="src.dir" location="${root.dir}/src/"/>
     <property name="build.dir" location="${root.dir}/build/"/>
 

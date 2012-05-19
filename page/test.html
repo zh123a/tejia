@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="GBK">
+    <title></title>
+    <script chrarset="utf-8" src="http://a.tbcdn.cn/??s/kissy/1.2.0/kissy-min.js?t=2012011120111214.js" ></script>
+</head>
+<body>
+    <form id="form" name="form" method="get">
+        <input type="input" id="J_Num">
+        <select id="active" name="active">
+            <option value="-2">超值推荐</option>
+            <option value="-1">类目活动</option>
+            <option value="0">专题活动</option>
+        </select>
+    /form>
+    <script>
+        KISSY.ready(function(S){
+            var D = S.DOM,
+                E = S.Event,
+                $ = S.Node.all,
+                select = $('#active'),
+                form = $('#form');
+            $(select).on('change',function(){
+                
+            })
+            function selectCheck(){
+                var val = $(select).val(),
+                    num = $('#')
+                if(val == -2){
+
+                }else if(val == -1){
+
+                }else if(val == 0){
+                    
+                }
+            }
+        })
+    </script>
+</body>
+</html>

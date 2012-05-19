@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<project name="page.build" default="concat" basedir=".">
+    <description>Build file for module</description>
+
+    <import file="../../build.xml"/>
+
+    <property name="module.dir" value="."/>
+
+    <target name="concat">
+        <mkdir dir="${build.dir}/page"/>
+        <copy todir="${build.dir}/page">
+            <fileset dir="${module.dir}" excludes="*.xml | *.cmd"/>
+        </copy>
+    </target>
+
+</project>

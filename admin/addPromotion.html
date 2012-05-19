@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="GBK" />
+<link href="layout.css" rel="stylesheet">
+</head>
+<body>
+<div id="header">
+	<h1 id="logo">天天特价后台管理系统</h1>	
+	<div class="top-menu">
+		<div>今天是星期三，2012年5月2日</div>
+		<div class="login-info">
+			<span>Welcome,XXX.</span>
+			<a href="#">退出</a>
+		</div>
+	</div>
+</div>
+<div id="page">
+	
+	<div id="nav">
+		<ul class="left">
+			<li class="home">
+				<a href="index.html">首页</a>
+			</li>			
+			<li>
+				<a href="manualAuditFirst.html">商品搜索</a>				
+			</li>
+			<li>
+				<a href="biImport.html">人工干预</a>
+			</li> 
+			<li class="cur">
+				<a href="addPromotion.html">添加促销活动</a>
+			</li>
+			<li>
+				<a href="managePromotion.html">管理促销活动</a>
+			</li> 
+			<li>
+				<a href="tms.html">TMS区块</a>
+			</li> 
+		</ul>
+				
+	</div>
+	<div id="content" class="border">
+		<div id="promotionFormDiv">
+			<form id="addPromotion" method="POST" name="addPromotion" onsubmit="return validate()" enctype="multipart/form-data">
+				<input name='_tb_token_' type='hidden' value='1ST24Y2l'>
+				<input type="hidden" name="action" value="addPromotionAction"/>
+    			<div class="overflowhidden">
+    			</div>
+    			<div class="margintop10">
+    				<div class="lineheight30 float_left width100 color999999">活动名称</div>
+    				<input type="text" value="" class="input" name="_fm.a._0.t" value=""/>
+					<span class="errorMessage">
+    						     				</span>
+    			</div>
+				<div class="margintop20">
+    				<div class="lineheight30 float_left width100 color999999">活动类型</div>
+					<div>
+    					<input type="radio" name="_fm.a._0.ty" value="categoryType" id="isCategoryType"  checked="true" />
+						<label for="isCategoryType">类目活动</label>&nbsp;&nbsp;
+						<input type="radio" name="_fm.a._0.ty" value="subjectType" id="isSubjectType" />
+						<label for="isSubjectType">专题活动</label>&nbsp;&nbsp;
+					</div>
+    			</div>
+				<div class="margintop20">
+    				<div class="lineheight30 float_left width100 color999999">活动时间</div>
+    				<input type="text" value="" class="datepicker input" name="_fm.a._0.p" value=""/>
+					<span >（时间格式：yyyy-MM-dd）</span>
+                    </span>
+    			</div>
+				<div class="margintop20">
+    				<div class="lineheight30 float_left width100 color999999">报名时间</div>
+    				<input type="text" value="" class="datepicker input" name="_fm.a._0.s" value=""/>
+					<span >（时间格式：yyyy-MM-dd）</span>
+    			</div>
+				<div class="margintop20">
+    				<div class="lineheight30 float_left width100 color999999">报名截止时间</div>
+    				<input type="text" value="" class="datepicker input" name="_fm.a._0.si" value=""/>
+					<span >（时间格式：yyyy-MM-dd）</span>
+    			</div>
+				<div class="margintop20">
+    				<div class="lineheight30 float_left width100 color999999">参与类目</div>
+					<div id="category_select_div">
+						<select multiple size="10" name="_fm.a._0.c">
+															缪文测试商品移动类目改名</option>
+															<option value="50023795">缪文测试规格属性重量</option>
+															<option value="50013234">缪柏年后台测试类目</option>
+															<option value="50003754">网店装修/物流快递/图片存储</option>
+															
+							                        </select>
+                    </div>
+    			</div>
+    			<div class="margintop20">
+    				<div class="lineheight30 float_left width100 color999999 height30"></div>
+    				<button id="submitButton" name="event_submit_do_add" class="submit" type="submit" value="do_add">提交</button>
+					<button id="cancelButton" type="button" class="submit">取消</button>
+    			</div>
+				<div class="hintDiv">
+            		<span style="font-size:120%;color:#FF0000;"></span>
+        		</div>
+			</form>
+		</div>
+	</div>
+</div>
+</body>
+</html>

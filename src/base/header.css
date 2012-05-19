@@ -1,92 +1,152 @@
 /*header START*/
-.slogan .logo a,
-.slogan .description span,
-.right .seller-signup,
-.right .buyer-notice {
-    background: url('../../src/assets/slogan.png') no-repeat 0 0 transparent;
+#t-hd{
+    width;100%;
+    background-color: #fff;
 }
-.slogan,
-.nav {
-    width: 990px;
+#te-header{
+    width:990px;
     margin: 0 auto;
+    position: relative;
 }
-.slogan .logo {
-    float: left;
-    margin-top: 19px;
-    margin-bottom: 11px;
+#logo {
+    padding: 16px 0 14px 3px;
 }
-.slogan .logo a{
-    background-position: 0 0;
-    display: inline-block;
-    width: 120px;
-    height: 50px;
+.beta{
+    display:block;
+    width:22px;
+    height:14px;
+    position:absolute;
+    left:190px;
+    top:8px;
+    background: url(http://img02.taobaocdn.com/tps/i2/T1Lee.XipbXXaHc7Da-22-14.png) no-repeat 0 0;
+}
+/*nav start*/
+#nav{
+    background:url(http://img01.taobaocdn.com/tps/i1/T1mU98XnXlXXXXXXXX-100-122.png) repeat-x 0 -80px;
+    height:42px;
+    width:100%;
+}
+.nav-box{
+    width:990px;
+    margin: 0 auto;
+    position:relative;
+}
+.te-navigation{
+   float:left;
+   height:40px;
+}
+.te-navigation li{
+    float:left;
+    line-height:40px;
+    padding: 0 23px;
+    text-align:center;
+    height:40px;
+}
+.te-navigation li.first{
+   
+    border-left: 1px solid #d84301;
+    border-right: 1px solid #d84301;
+    background-color:#f14e01;
+}
+.te-navigation li.list-cur{
+    background-color:#f14f01;
+    border-left: 1px solid #d84901;
+    border-right: 1px solid #d84901;
+}
+.te-navigation li.last{
+   
+}
+.te-navigation li a{
+    color:#fff;
+    font-size:16px;
+    font-weight:bold;
+    font-family:"Î¢ÈíÑÅºÚ";
+}
+#nav a:hover{
+    color:#fff;
+    text-decoration: underline;
+}
+.te-menu{
+    float:right;
+    width:100px;
+    height:31px;
+    background: url(http://img01.taobaocdn.com/tps/i1/T1mU98XnXlXXXXXXXX-100-122.png) no-repeat 0 0;
+    margin-top:4px;
+    line-height:31px;
+}
+.te-menu a{
+    color:#fff;
+    font-size:14px;
+    display:block;
+    width:88px;
+    height:31px;
+    padding-left:12px;
 }
 
-.slogan .description {
+
+.te-subnav{
+    clear:both;
+    width:988px;
+    margin: -2px auto 0 auto;
+    padding-top:2px;
+    height:37px;
+    border: 1px solid #d7d8da;
+    border-top: 0;
+}
+.te-subnav-b{
+    padding:6px 0 5px 9px;
+    height:26px;
+    line-height:26px;
+    width:979px;;
+    background-color:#fff;
+}
+.te-subnav span{
+    float:left;
+    width:85px;
+    background: url(http://img01.taobaocdn.com/tps/i1/T1mU98XnXlXXXXXXXX-100-122.png) no-repeat right -44px;
+    height:26px;
+    text-align: center;
+    position:relative;
+}
+.te-subnav span.last{
+    background:none;
+}
+.te-subnav span a{
+    color:#4d4d4d;
+    font-size:14px;
+}
+.te-subnav span a:hover{
+    color:#ff6600;
+}
+/*nav end*/
+/*2012-5-7 v2°æ±¾Í·*/
+.addfav{
     float: right;
-    margin-top: 31px;
+    margin-right:15px;
+    position:relative;
+    padding-left:17px;
+    height:24px;
+    line-height:24px;
+    margin-top:8px;
+    color:#fff;
 }
-
-.slogan .description span {
-    background-position: 0 -56px;
-    display: inline-block;
-    width: 150px;
-    height: 23px;
-    overflow: hidden;
-    text-indent: -9999px;
+.addfav i{
+    position:absolute;
+    top:7px;
+    left:0;
+    display:block;
+    width:12px;
+    height:10px;
+    background: url(http://img03.taobaocdn.com/tps/i3/T1IAqDXiNSXXaiRLHE-791-450.png) no-repeat -300px -351px;
 }
-
-.navbar{
-	background-color: #54ab1c;
-    height: 32px;
-    border-top: 3px solid #f0f0f0;
+.subnav-hot{
+    position:absolute;
+    display:block;
+    width:14px;
+    height:17px;
+    background: url(http://img03.taobaocdn.com/tps/i3/T1IAqDXiNSXXaiRLHE-791-450.png) no-repeat -300px -299px;
+    top:-3px;
+    right:-2px;
+}.luntan{
+    float:right;margin-right: 15px;position: relative;padding-left: 17px;height: 24px;line-height: 24px;margin-top: 8px;color:#fff;
 }
-.nav li{
-	position: relative;
-	float: left;
-	height: 32px;
-}
-.nav li.divider-vertical {
-    width: 1px;
-    margin: 11px 0 12px 0;
-    height: 9px;
-    background-color: #9fd57d;
-}
-.nav li a,
-.nav li a:link{
-	display: inline-block;
-	padding: 7px 22px 7px 22px;
-	height: 18px;
-	line-height: 18px;
-	font-size: 14px;
-	font-weight: bold;
-	color: #fff;
-	text-align: center;
-	text-decoration: none;
-}
-.nav li a:hover{
-	text-decoration: none;
-    color: red;
-}
-.nav .active{
-	color: #fff;
-}
-
-.nav .right{
-	position: relative;
-	float: right;
-}
-.nav .right a,
-.nav .right a:link{
-	font-size: 12px;
-	font-weight: normal;
-}
-.nav .right .seller-signup {
-    background-position: -120px 11px;
-    padding-left: 35px;
-}
-.nav .right .buyer-notice {
-    background-position: -136px -22px;
-}
-
-/*nav END*/

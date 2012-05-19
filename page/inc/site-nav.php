@@ -127,4 +127,3 @@
         </ul>
     </div>
 </div>
-<script>TB.Global.init();</script>
